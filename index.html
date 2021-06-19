@@ -1,0 +1,26 @@
+<link title="timeline-styles" rel="stylesheet" href="css/timeline.css">
+<script src="js/timeline.js"></script>
+
+<div id='timeline' style="width: 100%; height: 600px"></div>
+
+<script type="text/javascript">
+
+    fetch("data/timeline.json")
+        .then(response => response.json())
+        .then(timelineData => buildTimeline(timelineData))
+
+    let buildTimeline = (timelineData) => {
+
+        var additionalOptions = {
+            start_at_slide: 5,
+            zoom_sequence: [0, 0.2, 0.4, 0.6, 0.8, 1, 2, 3, 4, 5],
+            initial_zoom: 3,
+            font: "ubuntu"
+        }
+
+        window.timeline = new TL.Timeline(
+            'timeline', timelineData, additionalOptions);
+
+    }
+
+</script>
