@@ -1,5 +1,5 @@
-var ES_ENDPOINT = "<WILL_BE_CHANGED_BY_TERRAFORM>";
-var AUTHORIZATION = "<WILL_BE_CHANGED_BY_TERRAFORM>";
+var ES_ENDPOINT = "https://calendar-riferrei-com.es.us-east4.gcp.elastic-cloud.com:9243";
+var AUTHORIZATION = "ApiKey bnR2TEpYb0JUNXNyVDh4ZEJwVEU6VF9mSG5YaGtRYWVkVUtKV3REOVRldw==";
 
 function getWelcome(callback) {
 
