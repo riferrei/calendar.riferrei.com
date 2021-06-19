@@ -1,26 +1,92 @@
 <link title="timeline-styles" rel="stylesheet" href="css/timeline.css">
+<script src="js/content.js"></script>
 <script src="js/timeline.js"></script>
 
 <div id='timeline' style="width: 100%; height: 600px"></div>
 
 <script type="text/javascript">
 
-    fetch("data/timeline.json")
-        .then(response => response.json())
-        .then(timelineData => buildTimeline(timelineData))
+    let getWelcomeData = (welcomeData) => {
 
-    let buildTimeline = (timelineData) => {
+        photoUrl = welcomeData._source.photoUrl
+        photoComment = welcomeData._source.photoComment
+        headline = welcomeData._source.headline
+        headlineComment = welcomeData._source.headlineComment
 
-        var additionalOptions = {
-            start_at_slide: 5,
-            zoom_sequence: [0, 0.2, 0.4, 0.6, 0.8, 1, 2, 3, 4, 5],
-            initial_zoom: 3,
-            font: "ubuntu"
+        // Reference for the TimelineJS JSON data format:
+        // https://timeline.knightlab.com/docs/json-format.html
+        var timelineData = {
+            title: {
+                media: {
+                    url: photoUrl,
+                    credit: photoComment
+                },
+                text: {
+                    headline: headline,
+                    text: headlineComment
+                }
+            }
+        };
+
+        let getNextEventData = (nextEventData) => {
+
+            // Save the document that represents
+            // the next event for the timeline.
+            nextEventDocId = nextEventData._id;
+            var selectedSlide = 0;
+
+            let getEventsData = (eventsData) => {
+
+                timelineData.events = []
+
+                for (var i = 0; i < eventsData.length; i++) {
+
+                    // Use the iteration opportunity to check
+                    // if the document is the 1 to start with.
+                    if (eventsData[i]._id == nextEventDocId) {
+                        selectedSlide = i+1;
+                    }
+
+                    rawEvent = eventsData[i]._source;
+                    timestamp = new Date(rawEvent['@timestamp']);
+
+                    timelineEvent = {
+                        group: rawEvent.groupName,
+                        start_date: {
+                            year: timestamp.getFullYear(),
+                            month: timestamp.getMonth()+1,
+                            day: timestamp.getDate()
+                        },
+                        text: {
+                            headline: rawEvent.headline,
+                            text: rawEvent.text
+                        },
+                        media: {
+                            url: rawEvent.mediaUrl,
+                            thumbnail: rawEvent.thumbnail
+                        }
+                    }
+                    timelineData.events.push(timelineEvent);
+
+                }
+
+                var additionalOptions = {
+                    start_at_slide: selectedSlide,
+                    zoom_sequence: [0, 0.2, 0.4, 0.6, 0.8, 1, 2, 3, 4, 5],
+                    initial_zoom: 2,
+                    font: "ubuntu"
+                }
+
+                window.timeline = new TL.Timeline(
+                    'timeline', timelineData, additionalOptions);
+
+            }
+            getEvents(getEventsData);
+
         }
-
-        window.timeline = new TL.Timeline(
-            'timeline', timelineData, additionalOptions);
+        getNextEvent(getNextEventData);
 
     }
+    getWelcome(getWelcomeData);
 
 </script>
