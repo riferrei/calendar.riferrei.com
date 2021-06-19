@@ -66,6 +66,7 @@ function getEvents(callback) {
     var endpoint = ES_ENDPOINT + "/events/_search";
 
     var searchBody = {
+        size: 10000,
         sort: [
             {
                 "@timestamp": {
