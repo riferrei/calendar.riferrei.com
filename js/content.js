@@ -1,14 +1,12 @@
-var ES_ENDPOINT = "https://calendar-riferrei-com.es.us-east4.gcp.elastic-cloud.com:9243";
-var AUTHORIZATION = "ApiKey bnR2TEpYb0JUNXNyVDh4ZEJwVEU6VF9mSG5YaGtRYWVkVUtKV3REOVRldw==";
+const elasticsearchEndpoint = "elasticsearchEndpoint";
+const authorizationHeader = "authorizationHeader";
 
 function getWelcome(callback) {
 
-    var endpoint = ES_ENDPOINT + "/welcome/_doc/latest";
-    
-    fetch(endpoint, {
+    fetch(localStorage.getItem(elasticsearchEndpoint) + "/welcome/_doc/latest", {
         method: 'GET',
         headers: {
-            'Authorization': AUTHORIZATION
+            'Authorization': localStorage.getItem(authorizationHeader)
         }
     })
     .then(response => response.json())
@@ -17,8 +15,6 @@ function getWelcome(callback) {
 }
 
 function getNextEvent(callback) {
-
-    var endpoint = ES_ENDPOINT + "/events/_search";
 
     var searchBody = {
         size: 1,
@@ -43,10 +39,10 @@ function getNextEvent(callback) {
         }
     }
     
-    fetch(endpoint, {
+    fetch(localStorage.getItem(elasticsearchEndpoint) + "/events/_search", {
         method: 'POST',
         headers: {
-            'Authorization': AUTHORIZATION,
+            'Authorization': localStorage.getItem(authorizationHeader),
             'Content-Type': 'application/json'
         },
         body: JSON.stringify(searchBody)
@@ -59,8 +55,6 @@ function getNextEvent(callback) {
 
 function getEvents(callback) {
 
-    var endpoint = ES_ENDPOINT + "/events/_search";
-
     var searchBody = {
         size: 10000,
         sort: [
@@ -72,10 +66,10 @@ function getEvents(callback) {
         ]
     }
     
-    fetch(endpoint, {
+    fetch(localStorage.getItem(elasticsearchEndpoint) + "/events/_search", {
         method: 'POST',
         headers: {
-            'Authorization': AUTHORIZATION,
+            'Authorization': localStorage.getItem(authorizationHeader),
             'Content-Type': 'application/json'
         },
         body: JSON.stringify(searchBody)
@@ -85,3 +79,12 @@ function getEvents(callback) {
     .then(documents => callback(documents))
 
 }
+
+let handleContent = (content) => {
+    localStorage.setItem(elasticsearchEndpoint, content.elasticsearchEndpoint);
+    localStorage.setItem(authorizationHeader, content.authorizationHeader);
+}
+
+fetch('js/content.json')
+    .then(response => response.json())
+    .then(content => handleContent(content))
