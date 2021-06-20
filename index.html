@@ -6,12 +6,12 @@
 
 <script type="text/javascript">
 
-    let getWelcomeData = (welcomeData) => {
+    let buildWelcome = (welcomeDocument) => {
 
-        photoUrl = welcomeData._source.photoUrl
-        photoComment = welcomeData._source.photoComment
-        headline = welcomeData._source.headline
-        headlineComment = welcomeData._source.headlineComment
+        photoUrl = welcomeDocument._source.photoUrl
+        photoComment = welcomeDocument._source.photoComment
+        headline = welcomeDocument._source.headline
+        headlineComment = welcomeDocument._source.headlineComment
 
         // Reference for the TimelineJS JSON data format:
         // https://timeline.knightlab.com/docs/json-format.html
@@ -28,26 +28,26 @@
             }
         };
 
-        let getNextEventData = (nextEventData) => {
+        let buildNextEvent = (nextEventDocument) => {
 
-            // Save the document that represents
-            // the next event for the timeline.
-            nextEventDocId = nextEventData._id;
+            // Save the document that represents the
+            // the upcoming event for the timeline.
+            nextEventDocId = nextEventDocument._id;
             var selectedSlide = 0;
 
-            let getEventsData = (eventsData) => {
+            let buildEvents = (eventsDocuments) => {
 
                 timelineData.events = []
 
-                for (var i = 0; i < eventsData.length; i++) {
+                for (var i = 0; i < eventsDocuments.length; i++) {
 
-                    // Use the iteration opportunity to check
-                    // if the document is the 1 to start with.
-                    if (eventsData[i]._id == nextEventDocId) {
+                    // Use the iteration opportunity to find which
+                    // document should be the first to start with.
+                    if (eventsDocuments[i]._id == nextEventDocId) {
                         selectedSlide = i+1;
                     }
 
-                    rawEvent = eventsData[i]._source;
+                    rawEvent = eventsDocuments[i]._source;
                     timestamp = new Date(rawEvent['@timestamp']);
 
                     timelineEvent = {
@@ -81,12 +81,12 @@
                     'timeline', timelineData, additionalOptions);
 
             }
-            getEvents(getEventsData);
+            getEvents(buildEvents);
 
         }
-        getNextEvent(getNextEventData);
+        getNextEvent(buildNextEvent);
 
     }
-    getWelcome(getWelcomeData);
+    getWelcome(buildWelcome);
 
 </script>

@@ -12,7 +12,7 @@ function getWelcome(callback) {
         }
     })
     .then(response => response.json())
-    .then(data => callback(data))
+    .then(document => callback(document))
 
 }
 
@@ -57,7 +57,7 @@ function getNextEvent(callback) {
     })
     .then(response => response.json())
     .then(response => response.hits.hits[0])
-    .then(data => callback(data))
+    .then(document => callback(document))
 
 }
 
@@ -86,6 +86,6 @@ function getEvents(callback) {
     })
     .then(response => response.json())
     .then(response => response.hits.hits)
-    .then(data => callback(data))
+    .then(documents => callback(documents))
 
 }
