@@ -71,10 +71,12 @@
                 }
 
                 var additionalOptions = {
+                    marker_padding: 2,
+                    timenav_height_percentage: 50,
                     start_at_slide: selectedSlide,
                     zoom_sequence: [0, 0.2, 0.4, 0.6, 0.8, 1, 2, 3, 4, 5],
-                    initial_zoom: 2,
-                    font: "ubuntu"
+                    initial_zoom: 3,
+                    font: "ubuntu",
                 }
 
                 window.timeline = new TL.Timeline(

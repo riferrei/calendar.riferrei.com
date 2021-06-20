@@ -37,11 +37,7 @@ function getNextEvent(callback) {
                 score_mode : "multiply",
                 boost_mode: "multiply",
                 query: {
-                  range: {
-                    "@timestamp": {
-                      gte: "now"
-                    }
-                  }
+                    match_all: {}
                 }
              }
         }
