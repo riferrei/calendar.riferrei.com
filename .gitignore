@@ -1,4 +1,6 @@
 util
 data
 .DS_Store
+js/content.json
 js/content-code.js
+index-code.html

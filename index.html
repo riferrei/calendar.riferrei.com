@@ -15,8 +15,6 @@
         headline = welcomeDocument._source.headline
         headlineComment = welcomeDocument._source.headlineComment
 
-        // Reference for the TimelineJS JSON data format:
-        // https://timeline.knightlab.com/docs/json-format.html
         var timelineData = {
             title: {
                 media: {
@@ -32,19 +30,14 @@
 
         let buildNextEvent = (nextEventDocument) => {
 
-            // Save the document that represents the
-            // the upcoming event for the timeline.
             nextEventDocId = nextEventDocument._id;
             var selectedSlide = 0;
 
             let buildEvents = (eventsDocuments) => {
 
                 timelineData.events = []
-
                 for (var i = 0; i < eventsDocuments.length; i++) {
 
-                    // Use the iteration opportunity to find which
-                    // document should be the first to start with.
                     if (eventsDocuments[i]._id == nextEventDocId) {
                         selectedSlide = i+1;
                     }
