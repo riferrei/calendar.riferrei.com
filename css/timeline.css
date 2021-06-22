@@ -379,8 +379,8 @@
 .tl-timeline .tl-credit,
 .tl-timeline .tl-slidenav-next,
 .tl-timeline .tl-slidenav-previous {
-  font-size: 11px;
-  line-height: 11px;
+  font-size: 16px;
+  line-height: 16px;
 }
 .tl-timeline .tl-caption a,
 .tl-timeline .tl-credit a,
@@ -2262,12 +2262,12 @@
   -khtml-opacity: 0.15;
   -moz-opacity: 0.15;
   opacity: 0.15;
-  font-size: 11px;
-  line-height: 11px;
+  font-size: 16px;
+  line-height: 16px;
 }
 .tl-slidenav-previous .tl-slidenav-description,
 .tl-slidenav-next .tl-slidenav-description {
-  font-size: 11px;
+  font-size: 16px;
   margin-top: 5px;
   filter: alpha(opacity=0);
   -khtml-opacity: 0;
