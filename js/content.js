@@ -42,11 +42,7 @@ function buildTimeline(placeHolder) {
                         start_date: {
                             year: timestamp.getFullYear(),
                             month: timestamp.getMonth()+1,
-                            day: timestamp.getDate(),
-                            hour: timestamp.getHours(),
-                            minute: timestamp.getMinutes(),
-                            second: timestamp.getSeconds(),
-                            millisecond: timestamp.getMilliseconds()
+                            day: timestamp.getDate()
                         },
                         text: {
                             headline: rawEvent.headline,
