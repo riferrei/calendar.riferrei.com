@@ -379,8 +379,8 @@
 .tl-timeline .tl-credit,
 .tl-timeline .tl-slidenav-next,
 .tl-timeline .tl-slidenav-previous {
-  font-size: 16px;
-  line-height: 16px;
+  font-size: 14px;
+  line-height: 14px;
 }
 .tl-timeline .tl-caption a,
 .tl-timeline .tl-credit a,
@@ -2267,7 +2267,7 @@
 }
 .tl-slidenav-previous .tl-slidenav-description,
 .tl-slidenav-next .tl-slidenav-description {
-  font-size: 16px;
+  font-size: 14px;
   margin-top: 5px;
   filter: alpha(opacity=0);
   -khtml-opacity: 0;
