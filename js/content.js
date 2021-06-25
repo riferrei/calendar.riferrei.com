@@ -82,44 +82,37 @@ function buildTimeline(placeHolder) {
 
 function getWelcome(callback) {
 
-    fetch(getElasticsearchEndpoint() + "/welcome/_doc/latest", {
-        method: 'GET',
+    var getWelcomeBody = {
+        id: "getWelcome"
+    }
+
+    fetch(getElasticsearchEndpoint() + "/welcome/_search/template", {
+        method: 'POST',
         headers: {
-            'Authorization': getAuthorizationHeader()
-        }
+            'Authorization': getAuthorizationHeader(),
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(getWelcomeBody)
     })
     .then(response => response.json())
+    .then(response => response.hits.hits[0])
     .then(document => callback(document))
 
 }
 
 function getNextEvent(callback) {
 
-    var searchBody = {
-        size: 1,
-        query: {
-            range: {
-                "@timestamp": {
-                    gte: "now-1d"
-                }
-            }
-        },
-        sort: [
-            {
-                "@timestamp": {
-                    order: "asc"
-                }
-            }
-        ]
+    var getNextEventBody = {
+        id: "getNextEvent"
     }
     
-    fetch(getElasticsearchEndpoint() + "/events/_search", {
+    fetch(getElasticsearchEndpoint() + "/events/_search/template", {
         method: 'POST',
         headers: {
             'Authorization': getAuthorizationHeader(),
             'Content-Type': 'application/json'
         },
-        body: JSON.stringify(searchBody)
+        body: JSON.stringify(getNextEventBody)
     })
     .then(response => response.json())
     .then(response => response.hits.hits[0])
@@ -129,24 +122,17 @@ function getNextEvent(callback) {
 
 function getEvents(callback) {
 
-    var searchBody = {
-        size: 10000,
-        sort: [
-            {
-                "@timestamp": {
-                    order: "asc"
-                }
-            }
-        ]
+    var getEventsBody = {
+        id: "getEvents"
     }
-    
-    fetch(getElasticsearchEndpoint() + "/events/_search", {
+
+    fetch(getElasticsearchEndpoint() + "/events/_search/template", {
         method: 'POST',
         headers: {
             'Authorization': getAuthorizationHeader(),
             'Content-Type': 'application/json'
         },
-        body: JSON.stringify(searchBody)
+        body: JSON.stringify(getEventsBody)
     })
     .then(response => response.json())
     .then(response => response.hits.hits)
