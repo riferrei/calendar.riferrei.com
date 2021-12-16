@@ -22,8 +22,14 @@ function buildTimeline(placeHolder) {
 
         let buildNextEvent = (nextEventDocument) => {
 
-            nextEventDocId = nextEventDocument._id;
-            var selectedSlide = 0;
+            const NOVALUESET = -1;
+            var nextEventDocId = NOVALUESET;
+            var selectedSlide = NOVALUESET;
+
+            try {
+                nextEventDocId = nextEventDocument._id;
+            } catch (err) {
+            }
 
             let buildEvents = (eventsDocuments) => {
 
@@ -55,6 +61,10 @@ function buildTimeline(placeHolder) {
                     }
                     timelineData.events.push(timelineEvent);
 
+                }
+
+                if (selectedSlide == NOVALUESET) {
+                    selectedSlide = eventsDocuments.length;
                 }
 
                 var additionalOptions = {
