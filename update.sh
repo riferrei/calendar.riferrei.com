@@ -1,6 +1,6 @@
 #!/bin/bash
 
-docker run --net=host --rm -ti -v /tmp:/tmp elasticdump/elasticsearch-dump \
+docker run --net=host --rm -ti -v ${PWD}/dumps:/tmp elasticdump/elasticsearch-dump \
   --input=http://admin:changeme@localhost:9200/welcome \
   --output=/tmp/getWelcome.json \
   --type=data \
@@ -8,9 +8,9 @@ docker run --net=host --rm -ti -v /tmp:/tmp elasticdump/elasticsearch-dump \
   --searchBody="{\"id\":\"getWelcome\"}" \
   --overwrite
 
-cp /tmp/getWelcome.json ${PWD}/js
+cp ${PWD}/dumps/getWelcome.json ${PWD}/js
 
-docker run --net=host --rm -ti -v /tmp:/tmp elasticdump/elasticsearch-dump \
+docker run --net=host --rm -ti -v ${PWD}/dumps:/tmp elasticdump/elasticsearch-dump \
   --input=http://admin:changeme@localhost:9200/events \
   --output=/tmp/getNextEvent.json \
   --type=data \
@@ -19,9 +19,9 @@ docker run --net=host --rm -ti -v /tmp:/tmp elasticdump/elasticsearch-dump \
   --size=1 \
   --overwrite
 
-cp /tmp/getNextEvent.json ${PWD}/js
+cp ${PWD}/dumps/getNextEvent.json ${PWD}/js
 
-docker run --net=host --rm -ti -v /tmp:/tmp elasticdump/elasticsearch-dump \
+docker run --net=host --rm -ti -v ${PWD}/dumps:/tmp elasticdump/elasticsearch-dump \
   --input=http://admin:changeme@localhost:9200/events \
   --output=/tmp/getEvents.json \
   --type=data \
@@ -29,4 +29,4 @@ docker run --net=host --rm -ti -v /tmp:/tmp elasticdump/elasticsearch-dump \
   --searchBody="{\"id\":\"getEvents\"}" \
   --overwrite
   
-cat /tmp/getEvents.json | jq -s > ${PWD}/js/getEvents.json
+cat ${PWD}/dumps/getEvents.json | jq -s > ${PWD}/js/getEvents.json
