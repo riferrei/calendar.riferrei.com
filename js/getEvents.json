@@ -1785,11 +1785,12 @@
       "website": "https://www.elastic.co/virtual-events/building-software-reliability-with-distributed-tracing",
       "thumbnail": "https://calendar.riferrei.com/images/elastic.png",
       "mediaUrl": "https://calendar.riferrei.com/images/elastic.png",
+      "resources": "https://www.elastic.co/virtual-events/building-software-reliability-with-distributed-tracing",
       "groupName": "Q1",
       "@timestamp": "2022-03-03T12:00:00Z",
       "eventName": "Elastic Observability Webinar",
-      "talk": "Building Software Reliability with Distributed Tracing",
-      "text": "🎙 Building Software Reliability with Distributed Tracing<br>🎥 Online",
+      "talk": "<a href='https://www.elastic.co/virtual-events/building-software-reliability-with-distributed-tracing'>Building Software Reliability with Distributed Tracing</a>",
+      "text": "🎙 <a href='https://www.elastic.co/virtual-events/building-software-reliability-with-distributed-tracing'>Building Software Reliability with Distributed Tracing</a><br>🎥 Online",
       "headline": "<a href='https://www.elastic.co/virtual-events/building-software-reliability-with-distributed-tracing'>Elastic Observability Webinar</a>"
     },
     "sort": [

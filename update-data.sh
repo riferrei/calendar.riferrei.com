@@ -52,9 +52,5 @@ lcd js
 put getWelcome.json
 put getNextEvent.json
 put getEvents.json
-cd ../images
-lcd ../images
-binary
-mput *.*
 bye
 EOF
