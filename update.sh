@@ -16,9 +16,10 @@ docker run --net=host --rm -ti -v /tmp:/tmp elasticdump/elasticsearch-dump \
   --type=data \
   --searchWithTemplate \
   --searchBody="{\"id\":\"getNextEvent\"}" \
+  --size=1 \
   --overwrite
 
-cat /tmp/getNextEvent.json | jq -s > ${PWD}/js/getNextEvent.json
+cp /tmp/getNextEvent.json ${PWD}/js
 
 docker run --net=host --rm -ti -v /tmp:/tmp elasticdump/elasticsearch-dump \
   --input=http://admin:changeme@localhost:9200/events \

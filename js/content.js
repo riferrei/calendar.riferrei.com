@@ -102,7 +102,6 @@ function getNextEvent(callback) {
 
     fetch("js/getNextEvent.json")
         .then(response => response.json())
-        .then(response => response[0])
         .then(document => callback(document))
 
 }
