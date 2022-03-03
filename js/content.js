@@ -92,70 +92,25 @@ function buildTimeline(placeHolder) {
 
 function getWelcome(callback) {
 
-    var getWelcomeBody = {
-        id: "getWelcome"
-    }
-
-    fetch(getElasticsearchEndpoint() + "/welcome/_search/template", {
-        method: 'POST',
-        headers: {
-            'Authorization': getAuthorizationHeader(),
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(getWelcomeBody)
-    })
-    .then(response => response.json())
-    .then(response => response.hits.hits[0])
-    .then(document => callback(document))
+    fetch("js/getWelcome.json")
+        .then(response => response.json())
+        .then(document => callback(document))
 
 }
 
 function getNextEvent(callback) {
 
-    var getNextEventBody = {
-        id: "getNextEvent"
-    }
-    
-    fetch(getElasticsearchEndpoint() + "/events/_search/template", {
-        method: 'POST',
-        headers: {
-            'Authorization': getAuthorizationHeader(),
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(getNextEventBody)
-    })
-    .then(response => response.json())
-    .then(response => response.hits.hits[0])
-    .then(document => callback(document))
+    fetch("js/getNextEvent.json")
+        .then(response => response.json())
+        .then(response => response[0])
+        .then(document => callback(document))
 
 }
 
 function getEvents(callback) {
 
-    var getEventsBody = {
-        id: "getEvents"
-    }
+    fetch("js/getEvents.json")
+        .then(response => response.json())
+        .then(document => callback(document))
 
-    fetch(getElasticsearchEndpoint() + "/events/_search/template", {
-        method: 'POST',
-        headers: {
-            'Authorization': getAuthorizationHeader(),
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(getEventsBody)
-    })
-    .then(response => response.json())
-    .then(response => response.hits.hits)
-    .then(documents => callback(documents))
-
-}
-
-const contentPayload = "ewogICAgImVsYXN0aWNzZWFyY2hFbmRwb2ludCI6ICJodHRwczovL2NhbGVuZGFyLXJpZmVycmVpLWNvbS5lcy51cy1lYXN0NC5nY3AuZWxhc3RpYy1jbG91ZC5jb206OTI0MyIsCiAgICAiYXV0aG9yaXphdGlvbkhlYWRlciI6ICJBcGlLZXkgYm5SMlRFcFliMEpVTlhOeVZEaDRaRUp3VkVVNlZGOW1TRzVZYUd0UllXVmtWVXRLVjNSRU9WUmxkdz09Igp9Cg==";
-
-function getElasticsearchEndpoint() {
-    return JSON.parse(atob(contentPayload)).elasticsearchEndpoint;
-}
-
-function getAuthorizationHeader() {
-    return JSON.parse(atob(contentPayload)).authorizationHeader;
 }

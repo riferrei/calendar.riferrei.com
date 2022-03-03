@@ -1,0 +1,60 @@
+version: '2.4'
+
+services:
+
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.0.0
+    container_name: elasticsearch
+    hostname: elasticsearch
+    environment:
+      - "ES_JAVA_OPTS=-Xms4g -Xmx4g"
+      - "network.host="
+      - "transport.host=127.0.0.1"
+      - "http.host=0.0.0.0"
+      - "cluster.routing.allocation.disk.threshold_enabled=false"
+      - "discovery.type=single-node"
+      - "xpack.security.authc.anonymous.roles=remote_monitoring_collector"
+      - "xpack.security.authc.realms.file.file1.order=0"
+      - "xpack.security.authc.realms.native.native1.order=1"
+      - "xpack.security.enabled=true"
+      - "xpack.license.self_generated.type=trial"
+      - "xpack.security.authc.token.enabled=true"
+      - "xpack.security.authc.api_key.enabled=true"
+      - "logger.org.elasticsearch=${ES_LOG_LEVEL:-error}"
+      - "action.destructive_requires_name=false"
+    ports:
+      - "9200:9200"
+    volumes:
+      - "./data:/usr/share/elasticsearch/data"
+      - "./fleet-server/elasticsearch/roles.yml:/usr/share/elasticsearch/config/roles.yml"
+      - "./fleet-server/elasticsearch/users:/usr/share/elasticsearch/config/users"
+      - "./fleet-server/elasticsearch/users_roles:/usr/share/elasticsearch/config/users_roles"
+    healthcheck:
+      interval: 20s
+      retries: 10
+      test: ["CMD-SHELL", "curl -s http://localhost:9200/_cluster/health?wait_for_status=yellow&timeout=500ms"]
+
+  kibana:
+    image: docker.elastic.co/kibana/kibana:8.0.0
+    container_name: kibana
+    hostname: kibana
+    depends_on:
+      elasticsearch:
+        condition: service_healthy
+    environment:
+      ELASTICSEARCH_HOSTS: http://elasticsearch:9200
+      ELASTICSEARCH_USERNAME: "${KIBANA_ES_USER:-kibana_system_user}"
+      ELASTICSEARCH_PASSWORD: "${KIBANA_ES_PASS:-changeme}"
+      STATUS_ALLOWANONYMOUS: 'true'
+    ports:
+      - "5601:5601"
+    volumes:
+      - ./fleet-server/kibana/kibana.yml:/usr/share/kibana/config/kibana.yml
+    healthcheck:
+      interval: 10s
+      retries: 20
+      test: ["CMD-SHELL", "curl -s http://localhost:5601/api/status | grep -q 'All services are available'"]
+
+networks:
+  default:
+    name: calendar
