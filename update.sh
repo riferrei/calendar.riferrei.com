@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ####################################################################################
-#################### Updating the dumps and the generated files ####################
+###################### Updating the dumps and the JSON files #######################
 ####################################################################################
 
 docker run --net=host --rm -ti -v ${PWD}/dumps:/tmp elasticdump/elasticsearch-dump \
@@ -10,6 +10,7 @@ docker run --net=host --rm -ti -v ${PWD}/dumps:/tmp elasticdump/elasticsearch-du
   --type=data \
   --searchWithTemplate \
   --searchBody="{\"id\":\"getWelcome\"}" \
+  --timeout=1000 \
   --overwrite
 
 cp ${PWD}/dumps/getWelcome.json ${PWD}/js
@@ -20,6 +21,7 @@ docker run --net=host --rm -ti -v ${PWD}/dumps:/tmp elasticdump/elasticsearch-du
   --type=data \
   --searchWithTemplate \
   --searchBody="{\"id\":\"getNextEvent\"}" \
+  --timeout=1000 \
   --size=1 \
   --overwrite
 
@@ -31,24 +33,28 @@ docker run --net=host --rm -ti -v ${PWD}/dumps:/tmp elasticdump/elasticsearch-du
   --type=data \
   --searchWithTemplate \
   --searchBody="{\"id\":\"getEvents\"}" \
+  --timeout=1000 \
   --overwrite
   
 cat ${PWD}/dumps/getEvents.json | jq -s > ${PWD}/js/getEvents.json
 
 ####################################################################################
-########################## Uploading the generated files ###########################
+######################### Upload the files to the website ##########################
 ####################################################################################
 
-DESTINATION=/public_html/calendar/js
 HOST="calendar.riferrei.com"
 USER="riferrei"
 
-cd js
 ftp -p -inv $HOST <<EOF
 user $USER
-cd $DESTINATION
+cd /public_html/calendar/js
+lcd js
 put getWelcome.json
 put getNextEvent.json
 put getEvents.json
+cd ../images
+lcd ../images
+binary
+mput *.*
 bye
 EOF
