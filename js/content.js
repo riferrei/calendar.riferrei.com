@@ -20,70 +20,64 @@ function buildTimeline(placeHolder) {
             }
         };
 
-        let buildNextEvent = (nextEventDocument) => {
+        let buildEvents = (eventsDocuments) => {
 
             const NOVALUESET = -1;
-            var nextEventDocId = NOVALUESET;
-            var selectedSlide = NOVALUESET;
+            
+            selectedSlide = NOVALUESET;
+            timelineData.events = []
+            latestEvent = new Date();
+            latestEvent.setDate(latestEvent.getDate()-1);
 
-            try {
-                nextEventDocId = nextEventDocument._id;
-            } catch (err) {
-            }
+            for (var i = 0; i < eventsDocuments.length; i++) {
 
-            let buildEvents = (eventsDocuments) => {
-
-                timelineData.events = []
-                for (var i = 0; i < eventsDocuments.length; i++) {
-
-                    if (eventsDocuments[i]._id == nextEventDocId) {
-                        selectedSlide = i+1;
-                    }
-
-                    rawEvent = eventsDocuments[i]._source;
-                    timestamp = new Date(rawEvent['@timestamp']);
-
-                    timelineEvent = {
-                        group: rawEvent.groupName,
-                        start_date: {
-                            year: timestamp.getFullYear(),
-                            month: timestamp.getMonth()+1,
-                            day: timestamp.getDate()
-                        },
-                        text: {
-                            headline: rawEvent.headline,
-                            text: rawEvent.text
-                        },
-                        media: {
-                            url: rawEvent.mediaUrl,
-                            thumbnail: rawEvent.thumbnail
-                        }
-                    }
-                    timelineData.events.push(timelineEvent);
-
-                }
+                rawEvent = eventsDocuments[i]._source;
+                timestamp = new Date(rawEvent['@timestamp']);
 
                 if (selectedSlide == NOVALUESET) {
-                    selectedSlide = eventsDocuments.length;
+                    if (timestamp.getTime() > latestEvent.getTime()) {
+                        selectedSlide = i+1;
+                    }
                 }
 
-                var additionalOptions = {
-                    marker_padding: 2,
-                    timenav_height_percentage: 50,
-                    start_at_slide: selectedSlide,
-                    zoom_sequence: [0, 0.2, 0.4, 0.6, 0.8, 1, 2, 3, 4, 5],
-                    initial_zoom: 3,
-                    font: "ubuntu",
+                timelineEvent = {
+                    group: rawEvent.groupName,
+                    start_date: {
+                        year: timestamp.getFullYear(),
+                        month: timestamp.getMonth()+1,
+                        day: timestamp.getDate()
+                    },
+                    text: {
+                        headline: rawEvent.headline,
+                        text: rawEvent.text
+                    },
+                    media: {
+                        url: rawEvent.mediaUrl,
+                        thumbnail: rawEvent.thumbnail
+                    }
                 }
-
-                window.timeline = new TL.Timeline(
-                    placeHolder, timelineData, additionalOptions);
+                timelineData.events.push(timelineEvent);
 
             }
-            getEvents(buildEvents);
+
+            if (selectedSlide == NOVALUESET) {
+                selectedSlide = eventsDocuments.length;
+            }
+
+            var additionalOptions = {
+                marker_padding: 2,
+                timenav_height_percentage: 50,
+                start_at_slide: selectedSlide,
+                zoom_sequence: [0, 0.2, 0.4, 0.6, 0.8, 1, 2, 3, 4, 5],
+                initial_zoom: 3,
+                font: "ubuntu",
+            }
+
+            window.timeline = new TL.Timeline(
+                placeHolder, timelineData, additionalOptions);
 
         }
-        getNextEvent(buildNextEvent);
+        getEvents(buildEvents);
 
     }
     getWelcome(buildWelcome);
@@ -92,15 +86,7 @@ function buildTimeline(placeHolder) {
 
 function getWelcome(callback) {
 
-    fetch("js/getWelcome.json")
-        .then(response => response.json())
-        .then(document => callback(document))
-
-}
-
-function getNextEvent(callback) {
-
-    fetch("js/getNextEvent.json")
+    fetch("js/welcome.json")
         .then(response => response.json())
         .then(document => callback(document))
 
@@ -108,7 +94,7 @@ function getNextEvent(callback) {
 
 function getEvents(callback) {
 
-    fetch("js/getEvents.json")
+    fetch("js/events.json")
         .then(response => response.json())
         .then(document => callback(document))
 

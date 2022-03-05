@@ -6,37 +6,25 @@
 
 docker run --net=host --rm -ti -v ${PWD}/dumps:/tmp elasticdump/elasticsearch-dump \
   --input=http://admin:changeme@localhost:9200/welcome \
-  --output=/tmp/getWelcome.json \
+  --output=/tmp/welcome.json \
   --type=data \
   --searchWithTemplate \
   --searchBody="{\"id\":\"getWelcome\"}" \
   --timeout=1000 \
   --overwrite
 
-cp ${PWD}/dumps/getWelcome.json ${PWD}/js
+cp ${PWD}/dumps/welcome.json ${PWD}/js
 
 docker run --net=host --rm -ti -v ${PWD}/dumps:/tmp elasticdump/elasticsearch-dump \
   --input=http://admin:changeme@localhost:9200/events \
-  --output=/tmp/getNextEvent.json \
-  --type=data \
-  --searchWithTemplate \
-  --searchBody="{\"id\":\"getNextEvent\"}" \
-  --timeout=1000 \
-  --size=1 \
-  --overwrite
-
-cp ${PWD}/dumps/getNextEvent.json ${PWD}/js
-
-docker run --net=host --rm -ti -v ${PWD}/dumps:/tmp elasticdump/elasticsearch-dump \
-  --input=http://admin:changeme@localhost:9200/events \
-  --output=/tmp/getEvents.json \
+  --output=/tmp/events.json \
   --type=data \
   --searchWithTemplate \
   --searchBody="{\"id\":\"getEvents\"}" \
   --timeout=1000 \
   --overwrite
   
-cat ${PWD}/dumps/getEvents.json | jq -s > ${PWD}/js/getEvents.json
+cat ${PWD}/dumps/events.json | jq -s > ${PWD}/js/events.json
 
 ####################################################################################
 ######################### Upload the files to the website ##########################
@@ -49,8 +37,7 @@ ftp -p -inv $HOST <<EOF
 user $USER
 cd /public_html/calendar/js
 lcd js
-put getWelcome.json
-put getNextEvent.json
-put getEvents.json
+put welcome.json
+put events.json
 bye
 EOF
