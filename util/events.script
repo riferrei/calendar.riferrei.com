@@ -1,3 +1,5 @@
+DELETE events
+
 #######################################################################
 
 PUT _ingest/pipeline/buildEvent
@@ -97,12 +99,8 @@ PUT _ingest/pipeline/buildEvent
 
 #######################################################################
 
-PUT _index_template/events-template
+PUT /events
 {
-  "index_patterns": ["events*"],
-  "data_stream": {},
-  "priority": 200,
-  "template": {
     "settings": {
       "number_of_shards": 1,
       "number_of_replicas": 0,
@@ -166,11 +164,9 @@ PUT _index_template/events-template
         }
       }
     }
-  }
 }
 
-GET _index_template/events-template
-PUT _data_stream/events
+GET events/_search
 
 #######################################################################
 
@@ -262,4 +258,25 @@ POST welcome/_search/template
   "id": "getWelcome"
 }
 
+###################################################################
 
+DELETE events/_doc/NDvzd34B-pa8UFP-lpRK
+
+POST events/_doc
+{
+          "website" : "https://bigdataconference.eu/",
+          "thumbnail" : "https://calendar.riferrei.com/images/bigdata-conf-eu.jpeg",
+          "mediaUrl" : "https://calendar.riferrei.com/images/bigdata-conf-eu.jpeg",
+          "@timestamp" : "2022-11-21T12:00:00Z",
+          "eventName" : "Big Data Conference EU 2022",
+          "talk" : "Building Debugging-Enabled Data Pipelines"
+}
+
+GET events/_search
+{
+  "query": {
+    "match": {
+      "eventName": "Big Data Conference EU 2022"
+    }
+  }
+}
