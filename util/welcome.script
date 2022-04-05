@@ -1,0 +1,39 @@
+DELETE welcome
+
+###########################
+
+GET welcome
+
+###########################
+
+PUT /welcome
+{
+  "settings": {
+    "number_of_shards": 1,
+    "number_of_replicas": 0
+  }, 
+  "mappings": {
+    "properties": {
+      "@timestamp": {"type": "date" },
+      "photoUrl":    { "type": "text" },
+      "photoComment":  { "type": "text"  }, 
+      "headline":   { "type": "text"  },
+      "headlineComment": {"type": "text" }
+    }
+  }
+}
+
+###########################
+
+POST welcome/_doc/latest
+{
+  "@timestamp": "2021-06-19T11:00:00Z",
+  "photoUrl": "https://calendar.riferrei.com/images/riferrei-closeup.png",
+  "photoComment": "<a href='https://riferrei.com'>Ricardo Ferreira</a>",
+  "headline": "Ricardo's Calendar",
+  "headlineComment": "<br><p>👋 Hi there. Welcome to my calendar. Here you will find all the details of my upcoming talks and the ones that I have already delivered in conferences and meetups.</p>"
+}
+
+###########################
+
+GET welcome/_doc/latest

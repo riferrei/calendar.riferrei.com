@@ -1,0 +1,265 @@
+#######################################################################
+
+PUT _ingest/pipeline/buildEvent
+{
+  "processors": [
+    {
+      "date": {
+        "field": "@timestamp",
+        "formats": [
+          "ISO8601"
+        ],
+        "target_field": "month",
+        "output_format": "MM",
+        "description": "Read the month from date"
+      }
+    },
+    {
+      "set": {
+        "field": "groupName",
+        "value": "Q1",
+        "ignore_empty_value": true,
+        "if": "ctx.month == \"01\" || ctx.month == \"02\" || ctx.month == \"03\"",
+        "description": "Check Q1"
+      }
+    },
+    {
+      "set": {
+        "field": "groupName",
+        "value": "Q2",
+        "ignore_empty_value": true,
+        "if": "ctx.month == \"04\" || ctx.month == \"05\" || ctx.month == \"06\"",
+        "description": "Check Q2"
+      }
+    },
+    {
+      "set": {
+        "field": "groupName",
+        "value": "Q3",
+        "ignore_empty_value": true,
+        "if": "ctx.month == \"07\" || ctx.month == \"08\" || ctx.month == \"09\"",
+        "description": "Check Q3"
+      }
+    },
+    {
+      "set": {
+        "field": "groupName",
+        "value": "Q4",
+        "ignore_empty_value": true,
+        "if": "ctx.month == \"10\" || ctx.month == \"11\" || ctx.month == \"12\"",
+        "description": "Check Q4"
+      }
+    },
+    {
+      "remove": {
+        "field": "month",
+        "ignore_missing": true
+      }
+    },
+    {
+      "set": {
+        "field": "talk",
+        "value": "<a href='{{resources}}'>{{talk}}</a>",
+        "ignore_empty_value": true,
+        "if": "ctx.resources != null",
+        "description": "Create resources link for talk"
+      }
+    },
+    {
+      "set": {
+        "field": "text",
+        "value": "🎙 {{talk}}<br>✈️ <a href='https://www.google.com/maps/search/?api=1&query={{location}}'>{{location}}</a>",
+        "ignore_empty_value": true,
+        "if": "ctx.location != null",
+        "description": "Create text with location"
+      }
+    },
+    {
+      "set": {
+        "field": "text",
+        "value": "🎙 {{talk}}<br>🎥 Online",
+        "ignore_empty_value": true,
+        "if": "ctx.location == null",
+        "description": "Create text without location"
+      }
+    },
+    {
+      "set": {
+        "field": "headline",
+        "value": "<a href='{{website}}'>{{eventName}}</a>",
+        "ignore_empty_value": true,
+        "if": "ctx.website != null",
+        "ignore_failure": true
+      }
+    }
+  ]
+}
+
+#######################################################################
+
+PUT _index_template/events-template
+{
+  "index_patterns": ["events*"],
+  "data_stream": {},
+  "priority": 200,
+  "template": {
+    "settings": {
+      "number_of_shards": 1,
+      "number_of_replicas": 0,
+      "default_pipeline" : "buildEvent",
+      "index.lifecycle.name": "events-policy"
+    },
+    "mappings": {
+      "properties" : {
+        "@timestamp" : {
+          "type" : "date"
+        },
+        "eventName" : {
+          "type" : "text",
+          "fields" : {
+            "en-us" : {
+              "type" : "text",
+              "analyzer" : "english"
+            },
+            "pt-br" : {
+              "type" : "text",
+              "analyzer" : "brazilian"
+            }
+          }
+        },
+        "groupName" : {
+          "type" : "keyword"
+        },
+        "headline" : {
+          "type" : "text"
+        },
+        "location" : {
+          "type" : "text"
+        },
+        "mediaUrl" : {
+          "type" : "text"
+        },
+        "talk" : {
+          "type" : "text",
+          "fields" : {
+            "en-us" : {
+              "type" : "text",
+              "analyzer" : "english"
+            },
+            "pt-br" : {
+              "type" : "text",
+              "analyzer" : "brazilian"
+            }
+          }
+        },
+        "resources": {
+          "type": "text"
+        },
+        "text" : {
+          "type" : "text"
+        },
+        "thumbnail" : {
+          "type" : "text"
+        },
+        "website" : {
+          "type" : "text"
+        }
+      }
+    }
+  }
+}
+
+GET _index_template/events-template
+PUT _data_stream/events
+
+#######################################################################
+
+POST /events/_doc
+{
+  "@timestamp": "2021-09-30T12:00:00Z",
+  "eventName": "Strange Loop 2021",
+  "website": "https://www.thestrangeloop.com/",
+  "location": "St. Louis, MO, USA",
+  "mediaUrl": "https://calendar.riferrei.com/images/strange-loop.jpeg",
+  "thumbnail": "https://calendar.riferrei.com/images/strange-loop.jpeg",
+  "talk": "Understanding Data Streams with Elasticsearch"
+}
+
+#######################################################################
+
+GET _scripts/getEvents
+
+PUT _scripts/getEvents
+{
+  "script": {
+    "lang": "mustache",
+    "source": {
+      "size": 10000,
+      "sort": [
+        {
+          "@timestamp": {
+            "order" : "asc"
+          }
+        }
+      ]
+    }
+  }
+}
+
+GET events/_search/template
+{
+  "id": "getEvents"
+}
+
+PUT _scripts/getNextEvent
+{
+  "script": {
+    "lang": "mustache",
+    "source": {
+      "size": 1,
+      "query": {
+        "range": {
+          "@timestamp": {
+            "gte": "now-1d"
+          }
+        }
+      },
+      "sort": [
+        {
+          "@timestamp": {
+            "order" : "asc"
+          }
+        }
+      ]
+    }
+  }
+}
+
+GET events/_search/template
+{
+  "id": "getNextEvent"
+}
+
+PUT _scripts/getWelcome
+{
+  "script": {
+    "lang": "mustache",
+    "source": {
+      "size": 1,
+      "query": {
+        "ids": {
+          "values": ["latest"]
+        }
+      }
+    }
+  }
+}
+
+GET welcome/_doc/latest
+
+POST welcome/_search/template
+{
+  "id": "getWelcome"
+}
+
+
