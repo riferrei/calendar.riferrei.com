@@ -5,7 +5,7 @@
 ####################################################################################
 
 docker run --net=host --rm -ti -v ${PWD}/dumps:/tmp elasticdump/elasticsearch-dump \
-  --input=http://admin:changeme@localhost:9200/welcome \
+  --input=http://localhost:9200/welcome \
   --output=/tmp/welcome.json \
   --type=data \
   --searchWithTemplate \
@@ -16,7 +16,7 @@ docker run --net=host --rm -ti -v ${PWD}/dumps:/tmp elasticdump/elasticsearch-du
 cp ${PWD}/dumps/welcome.json ${PWD}/js
 
 docker run --net=host --rm -ti -v ${PWD}/dumps:/tmp elasticdump/elasticsearch-dump \
-  --input=http://admin:changeme@localhost:9200/events \
+  --input=http://localhost:9200/events \
   --output=/tmp/events.json \
   --type=data \
   --searchWithTemplate \
