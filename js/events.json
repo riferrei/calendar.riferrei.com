@@ -1,6 +1,7 @@
 [
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "uxQNf3wBSgj4cc4GDYYD",
     "_score": null,
     "_source": {
@@ -21,6 +22,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "XLoPf3wBH4uxy4h1rpSC",
     "_score": null,
     "_source": {
@@ -41,6 +43,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "XroSf3wBH4uxy4h1K5RG",
     "_score": null,
     "_source": {
@@ -61,6 +64,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "X7oUf3wBH4uxy4h15ZSj",
     "_score": null,
     "_source": {
@@ -81,6 +85,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "YLoaf3wBH4uxy4h1EZSf",
     "_score": null,
     "_source": {
@@ -91,9 +96,9 @@
       "groupName": "Q1",
       "@timestamp": "2019-03-27T12:00:00Z",
       "eventName": "DevOps Talks 2019",
-      "talk": "<a href='https://www.youtube.com/watch?v=cCk0aUpRQCI&list=PLCL_5SaIobckH7AVegbE-YHMWPYRRYlXA'><a href='https://www.youtube.com/watch?v=cCk0aUpRQCI&list=PLCL_5SaIobckH7AVegbE-YHMWPYRRYlXA'><a href='https://www.youtube.com/watch?v=cCk0aUpRQCI&list=PLCL_5SaIobckH7AVegbE-YHMWPYRRYlXA'>Getting Superman X-Ray Vision: Bringing Observability to your Stream Processing</a></a></a>",
+      "talk": "<a href='https://www.youtube.com/watch?v=cCk0aUpRQCI&list=PLCL_5SaIobckH7AVegbE-YHMWPYRRYlXA'><a href='https://www.youtube.com/watch?v=cCk0aUpRQCI&list=PLCL_5SaIobckH7AVegbE-YHMWPYRRYlXA'><a href='https://www.youtube.com/watch?v=cCk0aUpRQCI&list=PLCL_5SaIobckH7AVegbE-YHMWPYRRYlXA'><a href='https://www.youtube.com/watch?v=cCk0aUpRQCI&list=PLCL_5SaIobckH7AVegbE-YHMWPYRRYlXA'>Getting Superman X-Ray Vision: Bringing Observability to your Stream Processing</a></a></a></a>",
       "location": "Auckland, New Zeeland",
-      "text": "🎙 <a href='https://www.youtube.com/watch?v=cCk0aUpRQCI&list=PLCL_5SaIobckH7AVegbE-YHMWPYRRYlXA'><a href='https://www.youtube.com/watch?v=cCk0aUpRQCI&list=PLCL_5SaIobckH7AVegbE-YHMWPYRRYlXA'><a href='https://www.youtube.com/watch?v=cCk0aUpRQCI&list=PLCL_5SaIobckH7AVegbE-YHMWPYRRYlXA'>Getting Superman X-Ray Vision: Bringing Observability to your Stream Processing</a></a></a><br>✈️ <a href='https://www.google.com/maps/search/?api=1&query=Auckland, New Zeeland'>Auckland, New Zeeland</a>",
+      "text": "🎙 <a href='https://www.youtube.com/watch?v=cCk0aUpRQCI&list=PLCL_5SaIobckH7AVegbE-YHMWPYRRYlXA'><a href='https://www.youtube.com/watch?v=cCk0aUpRQCI&list=PLCL_5SaIobckH7AVegbE-YHMWPYRRYlXA'><a href='https://www.youtube.com/watch?v=cCk0aUpRQCI&list=PLCL_5SaIobckH7AVegbE-YHMWPYRRYlXA'><a href='https://www.youtube.com/watch?v=cCk0aUpRQCI&list=PLCL_5SaIobckH7AVegbE-YHMWPYRRYlXA'>Getting Superman X-Ray Vision: Bringing Observability to your Stream Processing</a></a></a></a><br>✈️ <a href='https://www.google.com/maps/search/?api=1&query=Auckland, New Zeeland'>Auckland, New Zeeland</a>",
       "headline": "<a href='https://devops.talksplus.com/2019_Auckland/speakers.html'>DevOps Talks 2019</a>"
     },
     "sort": [
@@ -102,6 +107,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "Yroff3wBH4uxy4h1nJT4",
     "_score": null,
     "_source": {
@@ -112,9 +118,9 @@
       "groupName": "Q2",
       "@timestamp": "2019-04-02T12:00:00Z",
       "eventName": "Kafka Summit 2019, New York",
-      "talk": "<a href='https://www.confluent.io/kafka-summit-ny19/keeping-your-data-close-and-your-caches-hotter/'><a href='https://www.confluent.io/kafka-summit-ny19/keeping-your-data-close-and-your-caches-hotter/'><a href='https://www.confluent.io/kafka-summit-ny19/keeping-your-data-close-and-your-caches-hotter/'><a href='https://www.confluent.io/kafka-summit-ny19/keeping-your-data-close-and-your-caches-hotter/'><a href='https://www.confluent.io/kafka-summit-ny19/keeping-your-data-close-and-your-caches-hotter/'>Keeping Your Data Close and Your Caches Hotter</a></a></a></a></a>",
+      "talk": "<a href='https://www.confluent.io/kafka-summit-ny19/keeping-your-data-close-and-your-caches-hotter/'><a href='https://www.confluent.io/kafka-summit-ny19/keeping-your-data-close-and-your-caches-hotter/'><a href='https://www.confluent.io/kafka-summit-ny19/keeping-your-data-close-and-your-caches-hotter/'><a href='https://www.confluent.io/kafka-summit-ny19/keeping-your-data-close-and-your-caches-hotter/'><a href='https://www.confluent.io/kafka-summit-ny19/keeping-your-data-close-and-your-caches-hotter/'><a href='https://www.confluent.io/kafka-summit-ny19/keeping-your-data-close-and-your-caches-hotter/'>Keeping Your Data Close and Your Caches Hotter</a></a></a></a></a></a>",
       "location": "New York, NY, USA",
-      "text": "🎙 <a href='https://www.confluent.io/kafka-summit-ny19/keeping-your-data-close-and-your-caches-hotter/'><a href='https://www.confluent.io/kafka-summit-ny19/keeping-your-data-close-and-your-caches-hotter/'><a href='https://www.confluent.io/kafka-summit-ny19/keeping-your-data-close-and-your-caches-hotter/'><a href='https://www.confluent.io/kafka-summit-ny19/keeping-your-data-close-and-your-caches-hotter/'><a href='https://www.confluent.io/kafka-summit-ny19/keeping-your-data-close-and-your-caches-hotter/'>Keeping Your Data Close and Your Caches Hotter</a></a></a></a></a><br>✈️ <a href='https://www.google.com/maps/search/?api=1&query=New York, NY, USA'>New York, NY, USA</a>",
+      "text": "🎙 <a href='https://www.confluent.io/kafka-summit-ny19/keeping-your-data-close-and-your-caches-hotter/'><a href='https://www.confluent.io/kafka-summit-ny19/keeping-your-data-close-and-your-caches-hotter/'><a href='https://www.confluent.io/kafka-summit-ny19/keeping-your-data-close-and-your-caches-hotter/'><a href='https://www.confluent.io/kafka-summit-ny19/keeping-your-data-close-and-your-caches-hotter/'><a href='https://www.confluent.io/kafka-summit-ny19/keeping-your-data-close-and-your-caches-hotter/'><a href='https://www.confluent.io/kafka-summit-ny19/keeping-your-data-close-and-your-caches-hotter/'>Keeping Your Data Close and Your Caches Hotter</a></a></a></a></a></a><br>✈️ <a href='https://www.google.com/maps/search/?api=1&query=New York, NY, USA'>New York, NY, USA</a>",
       "headline": "<a href='https://www.kafka-summit.org/kafka-summit-new-york-2019'>Kafka Summit 2019, New York</a>"
     },
     "sort": [
@@ -123,6 +129,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "vRQof3wBSgj4cc4GSIbe",
     "_score": null,
     "_source": {
@@ -133,9 +140,9 @@
       "groupName": "Q2",
       "@timestamp": "2019-04-09T12:00:00Z",
       "eventName": "Google Cloud Next 2019",
-      "talk": "<a href='https://www.youtube.com/watch?v=7H4C9q1a9No'><a href='https://www.youtube.com/watch?v=7H4C9q1a9No'><a href='https://www.youtube.com/watch?v=7H4C9q1a9No'><a href='https://www.youtube.com/watch?v=7H4C9q1a9No'>GCP for Apache Kafka Users: Stream Ingestion and Processing</a></a></a></a>",
+      "talk": "<a href='https://www.youtube.com/watch?v=7H4C9q1a9No'><a href='https://www.youtube.com/watch?v=7H4C9q1a9No'><a href='https://www.youtube.com/watch?v=7H4C9q1a9No'><a href='https://www.youtube.com/watch?v=7H4C9q1a9No'><a href='https://www.youtube.com/watch?v=7H4C9q1a9No'>GCP for Apache Kafka Users: Stream Ingestion and Processing</a></a></a></a></a>",
       "location": "San Francisco, CA, USA",
-      "text": "🎙 <a href='https://www.youtube.com/watch?v=7H4C9q1a9No'><a href='https://www.youtube.com/watch?v=7H4C9q1a9No'><a href='https://www.youtube.com/watch?v=7H4C9q1a9No'><a href='https://www.youtube.com/watch?v=7H4C9q1a9No'>GCP for Apache Kafka Users: Stream Ingestion and Processing</a></a></a></a><br>✈️ <a href='https://www.google.com/maps/search/?api=1&query=San Francisco, CA, USA'>San Francisco, CA, USA</a>",
+      "text": "🎙 <a href='https://www.youtube.com/watch?v=7H4C9q1a9No'><a href='https://www.youtube.com/watch?v=7H4C9q1a9No'><a href='https://www.youtube.com/watch?v=7H4C9q1a9No'><a href='https://www.youtube.com/watch?v=7H4C9q1a9No'><a href='https://www.youtube.com/watch?v=7H4C9q1a9No'>GCP for Apache Kafka Users: Stream Ingestion and Processing</a></a></a></a></a><br>✈️ <a href='https://www.google.com/maps/search/?api=1&query=San Francisco, CA, USA'>San Francisco, CA, USA</a>",
       "headline": "<a href='https://cloud.google.com/blog/products/gcp/mark-your-calendar-google-cloud-next-2019'>Google Cloud Next 2019</a>"
     },
     "sort": [
@@ -144,6 +151,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "ZLotf3wBH4uxy4h1opTk",
     "_score": null,
     "_source": {
@@ -154,9 +162,9 @@
       "groupName": "Q2",
       "@timestamp": "2019-04-26T12:00:00Z",
       "eventName": "JEE Conf 2019",
-      "talk": "<a href='https://www.youtube.com/watch?v=I0Cst1H6edQ'><a href='https://www.youtube.com/watch?v=I0Cst1H6edQ'><a href='https://www.youtube.com/watch?v=I0Cst1H6edQ'>Tips and Tricks about Apache Kafka in the Cloud for Java Developers</a></a></a>",
+      "talk": "<a href='https://www.youtube.com/watch?v=I0Cst1H6edQ'><a href='https://www.youtube.com/watch?v=I0Cst1H6edQ'><a href='https://www.youtube.com/watch?v=I0Cst1H6edQ'><a href='https://www.youtube.com/watch?v=I0Cst1H6edQ'>Tips and Tricks about Apache Kafka in the Cloud for Java Developers</a></a></a></a>",
       "location": "Kyiv, Ukraine",
-      "text": "🎙 <a href='https://www.youtube.com/watch?v=I0Cst1H6edQ'><a href='https://www.youtube.com/watch?v=I0Cst1H6edQ'><a href='https://www.youtube.com/watch?v=I0Cst1H6edQ'>Tips and Tricks about Apache Kafka in the Cloud for Java Developers</a></a></a><br>✈️ <a href='https://www.google.com/maps/search/?api=1&query=Kyiv, Ukraine'>Kyiv, Ukraine</a>",
+      "text": "🎙 <a href='https://www.youtube.com/watch?v=I0Cst1H6edQ'><a href='https://www.youtube.com/watch?v=I0Cst1H6edQ'><a href='https://www.youtube.com/watch?v=I0Cst1H6edQ'><a href='https://www.youtube.com/watch?v=I0Cst1H6edQ'>Tips and Tricks about Apache Kafka in the Cloud for Java Developers</a></a></a></a><br>✈️ <a href='https://www.google.com/maps/search/?api=1&query=Kyiv, Ukraine'>Kyiv, Ukraine</a>",
       "headline": "<a href='https://jeeconf.com/archive/jeeconf-2019/speakers/'>JEE Conf 2019</a>"
     },
     "sort": [
@@ -165,6 +173,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "Zbovf3wBH4uxy4h1RZR5",
     "_score": null,
     "_source": {
@@ -175,9 +184,9 @@
       "groupName": "Q2",
       "@timestamp": "2019-04-27T12:00:00Z",
       "eventName": "JEE Conf 2019",
-      "talk": "<a href='https://www.youtube.com/watch?v=9WqdqmQcaro'><a href='https://www.youtube.com/watch?v=9WqdqmQcaro'><a href='https://www.youtube.com/watch?v=9WqdqmQcaro'>Implementing Distributed Tracing ‘Like a Boss’ in your Kafka Deployments</a></a></a>",
+      "talk": "<a href='https://www.youtube.com/watch?v=9WqdqmQcaro'><a href='https://www.youtube.com/watch?v=9WqdqmQcaro'><a href='https://www.youtube.com/watch?v=9WqdqmQcaro'><a href='https://www.youtube.com/watch?v=9WqdqmQcaro'>Implementing Distributed Tracing ‘Like a Boss’ in your Kafka Deployments</a></a></a></a>",
       "location": "Kyiv, Ukraine",
-      "text": "🎙 <a href='https://www.youtube.com/watch?v=9WqdqmQcaro'><a href='https://www.youtube.com/watch?v=9WqdqmQcaro'><a href='https://www.youtube.com/watch?v=9WqdqmQcaro'>Implementing Distributed Tracing ‘Like a Boss’ in your Kafka Deployments</a></a></a><br>✈️ <a href='https://www.google.com/maps/search/?api=1&query=Kyiv, Ukraine'>Kyiv, Ukraine</a>",
+      "text": "🎙 <a href='https://www.youtube.com/watch?v=9WqdqmQcaro'><a href='https://www.youtube.com/watch?v=9WqdqmQcaro'><a href='https://www.youtube.com/watch?v=9WqdqmQcaro'><a href='https://www.youtube.com/watch?v=9WqdqmQcaro'>Implementing Distributed Tracing ‘Like a Boss’ in your Kafka Deployments</a></a></a></a><br>✈️ <a href='https://www.google.com/maps/search/?api=1&query=Kyiv, Ukraine'>Kyiv, Ukraine</a>",
       "headline": "<a href='https://jeeconf.com/archive/jeeconf-2019/speakers/'>JEE Conf 2019</a>"
     },
     "sort": [
@@ -186,6 +195,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "Zroyf3wBH4uxy4h1hZSo",
     "_score": null,
     "_source": {
@@ -196,9 +206,9 @@
       "groupName": "Q2",
       "@timestamp": "2019-05-06T12:00:00Z",
       "eventName": "QCon São Paulo 2019",
-      "talk": "<a href='https://www.youtube.com/watch?v=4ONf63koLtU'><a href='https://www.youtube.com/watch?v=4ONf63koLtU'><a href='https://www.youtube.com/watch?v=4ONf63koLtU'>Abraçando a Anarquia: Design Patterns de Apache Kafka em Arquiteturas de Dados Modernas e Big Data</a></a></a>",
+      "talk": "<a href='https://www.youtube.com/watch?v=4ONf63koLtU'><a href='https://www.youtube.com/watch?v=4ONf63koLtU'><a href='https://www.youtube.com/watch?v=4ONf63koLtU'><a href='https://www.youtube.com/watch?v=4ONf63koLtU'>Abraçando a Anarquia: Design Patterns de Apache Kafka em Arquiteturas de Dados Modernas e Big Data</a></a></a></a>",
       "location": "São Paulo, SP, Brazil",
-      "text": "🎙 <a href='https://www.youtube.com/watch?v=4ONf63koLtU'><a href='https://www.youtube.com/watch?v=4ONf63koLtU'><a href='https://www.youtube.com/watch?v=4ONf63koLtU'>Abraçando a Anarquia: Design Patterns de Apache Kafka em Arquiteturas de Dados Modernas e Big Data</a></a></a><br>✈️ <a href='https://www.google.com/maps/search/?api=1&query=São Paulo, SP, Brazil'>São Paulo, SP, Brazil</a>",
+      "text": "🎙 <a href='https://www.youtube.com/watch?v=4ONf63koLtU'><a href='https://www.youtube.com/watch?v=4ONf63koLtU'><a href='https://www.youtube.com/watch?v=4ONf63koLtU'><a href='https://www.youtube.com/watch?v=4ONf63koLtU'>Abraçando a Anarquia: Design Patterns de Apache Kafka em Arquiteturas de Dados Modernas e Big Data</a></a></a></a><br>✈️ <a href='https://www.google.com/maps/search/?api=1&query=São Paulo, SP, Brazil'>São Paulo, SP, Brazil</a>",
       "headline": "<a href='https://qconsp.com/'>QCon São Paulo 2019</a>"
     },
     "sort": [
@@ -207,6 +217,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "vhQ1f3wBSgj4cc4GZobQ",
     "_score": null,
     "_source": {
@@ -227,6 +238,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "vxQ4f3wBSgj4cc4GPYYS",
     "_score": null,
     "_source": {
@@ -247,6 +259,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "aLo7f3wBH4uxy4h1k5Sg",
     "_score": null,
     "_source": {
@@ -267,6 +280,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "wBQ-f3wBSgj4cc4G_YZQ",
     "_score": null,
     "_source": {
@@ -277,9 +291,9 @@
       "groupName": "Q2",
       "@timestamp": "2019-06-04T12:00:00Z",
       "eventName": "JNation 2019",
-      "talk": "<a href='https://www.youtube.com/watch?v=mxxxgNUXqTI'><a href='https://www.youtube.com/watch?v=mxxxgNUXqTI'><a href='https://www.youtube.com/watch?v=mxxxgNUXqTI'>Everything you Wanted to Know about Apache Kafka but you Were too Afraid to Ask!</a></a></a>",
+      "talk": "<a href='https://www.youtube.com/watch?v=mxxxgNUXqTI'><a href='https://www.youtube.com/watch?v=mxxxgNUXqTI'><a href='https://www.youtube.com/watch?v=mxxxgNUXqTI'><a href='https://www.youtube.com/watch?v=mxxxgNUXqTI'>Everything you Wanted to Know about Apache Kafka but you Were too Afraid to Ask!</a></a></a></a>",
       "location": "Coimbra, Portugal",
-      "text": "🎙 <a href='https://www.youtube.com/watch?v=mxxxgNUXqTI'><a href='https://www.youtube.com/watch?v=mxxxgNUXqTI'><a href='https://www.youtube.com/watch?v=mxxxgNUXqTI'>Everything you Wanted to Know about Apache Kafka but you Were too Afraid to Ask!</a></a></a><br>✈️ <a href='https://www.google.com/maps/search/?api=1&query=Coimbra, Portugal'>Coimbra, Portugal</a>",
+      "text": "🎙 <a href='https://www.youtube.com/watch?v=mxxxgNUXqTI'><a href='https://www.youtube.com/watch?v=mxxxgNUXqTI'><a href='https://www.youtube.com/watch?v=mxxxgNUXqTI'><a href='https://www.youtube.com/watch?v=mxxxgNUXqTI'>Everything you Wanted to Know about Apache Kafka but you Were too Afraid to Ask!</a></a></a></a><br>✈️ <a href='https://www.google.com/maps/search/?api=1&query=Coimbra, Portugal'>Coimbra, Portugal</a>",
       "headline": "<a href='https://2019.jnation.pt/'>JNation 2019</a>"
     },
     "sort": [
@@ -288,6 +302,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "abpBf3wBH4uxy4h1HZTO",
     "_score": null,
     "_source": {
@@ -308,6 +323,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "wRRCf3wBSgj4cc4GmIYY",
     "_score": null,
     "_source": {
@@ -328,6 +344,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "gLplgHwBH4uxy4h1qpTz",
     "_score": null,
     "_source": {
@@ -348,6 +365,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "gbpogHwBH4uxy4h1KJRD",
     "_score": null,
     "_source": {
@@ -368,6 +386,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "grprgHwBH4uxy4h1apSY",
     "_score": null,
     "_source": {
@@ -388,6 +407,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "whRtgHwBSgj4cc4Gh4YY",
     "_score": null,
     "_source": {
@@ -408,6 +428,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "wxRxgHwBSgj4cc4G0Ybn",
     "_score": null,
     "_source": {
@@ -428,6 +449,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "g7p0gHwBH4uxy4h19JT3",
     "_score": null,
     "_source": {
@@ -448,6 +470,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "xBR3gHwBSgj4cc4G7oYM",
     "_score": null,
     "_source": {
@@ -458,9 +481,9 @@
       "groupName": "Q4",
       "@timestamp": "2019-10-01T12:00:00Z",
       "eventName": "Kafka Summit 2019, San Francisco",
-      "talk": "<a href='https://www.confluent.io/kafka-summit-san-francisco-2019/being-an-apache-kafka-developer-hero-in-the-world-of-cloud/'><a href='https://www.confluent.io/kafka-summit-san-francisco-2019/being-an-apache-kafka-developer-hero-in-the-world-of-cloud/'><a href='https://www.confluent.io/kafka-summit-san-francisco-2019/being-an-apache-kafka-developer-hero-in-the-world-of-cloud/'>Being an Apache Kafka Developer Hero in the World of Cloud</a></a></a>",
+      "talk": "<a href='https://www.confluent.io/kafka-summit-san-francisco-2019/being-an-apache-kafka-developer-hero-in-the-world-of-cloud/'><a href='https://www.confluent.io/kafka-summit-san-francisco-2019/being-an-apache-kafka-developer-hero-in-the-world-of-cloud/'><a href='https://www.confluent.io/kafka-summit-san-francisco-2019/being-an-apache-kafka-developer-hero-in-the-world-of-cloud/'><a href='https://www.confluent.io/kafka-summit-san-francisco-2019/being-an-apache-kafka-developer-hero-in-the-world-of-cloud/'>Being an Apache Kafka Developer Hero in the World of Cloud</a></a></a></a>",
       "location": "San Francisco, CA, USA",
-      "text": "🎙 <a href='https://www.confluent.io/kafka-summit-san-francisco-2019/being-an-apache-kafka-developer-hero-in-the-world-of-cloud/'><a href='https://www.confluent.io/kafka-summit-san-francisco-2019/being-an-apache-kafka-developer-hero-in-the-world-of-cloud/'><a href='https://www.confluent.io/kafka-summit-san-francisco-2019/being-an-apache-kafka-developer-hero-in-the-world-of-cloud/'>Being an Apache Kafka Developer Hero in the World of Cloud</a></a></a><br>✈️ <a href='https://www.google.com/maps/search/?api=1&query=San Francisco, CA, USA'>San Francisco, CA, USA</a>",
+      "text": "🎙 <a href='https://www.confluent.io/kafka-summit-san-francisco-2019/being-an-apache-kafka-developer-hero-in-the-world-of-cloud/'><a href='https://www.confluent.io/kafka-summit-san-francisco-2019/being-an-apache-kafka-developer-hero-in-the-world-of-cloud/'><a href='https://www.confluent.io/kafka-summit-san-francisco-2019/being-an-apache-kafka-developer-hero-in-the-world-of-cloud/'><a href='https://www.confluent.io/kafka-summit-san-francisco-2019/being-an-apache-kafka-developer-hero-in-the-world-of-cloud/'>Being an Apache Kafka Developer Hero in the World of Cloud</a></a></a></a><br>✈️ <a href='https://www.google.com/maps/search/?api=1&query=San Francisco, CA, USA'>San Francisco, CA, USA</a>",
       "headline": "<a href='https://www.kafka-summit.org/kafka-summit-san-francisco-2019'>Kafka Summit 2019, San Francisco</a>"
     },
     "sort": [
@@ -469,6 +492,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "xRR5gHwBSgj4cc4G0obd",
     "_score": null,
     "_source": {
@@ -489,6 +513,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "hbp7gHwBH4uxy4h1o5QG",
     "_score": null,
     "_source": {
@@ -509,6 +534,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "hrp-gHwBH4uxy4h1ZZQh",
     "_score": null,
     "_source": {
@@ -529,6 +555,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "iLqBgHwBH4uxy4h1hpQK",
     "_score": null,
     "_source": {
@@ -539,9 +566,9 @@
       "groupName": "Q4",
       "@timestamp": "2019-11-06T12:00:00Z",
       "eventName": "Microsoft Ignite 2019",
-      "talk": "<a href='https://www.youtube.com/watch?v=_ckdCY_lPkA'><a href='https://www.youtube.com/watch?v=_ckdCY_lPkA'><a href='https://www.youtube.com/watch?v=_ckdCY_lPkA'>You Too Can Build Event-Driven Apps with Apache Kafka</a></a></a>",
+      "talk": "<a href='https://www.youtube.com/watch?v=_ckdCY_lPkA'><a href='https://www.youtube.com/watch?v=_ckdCY_lPkA'><a href='https://www.youtube.com/watch?v=_ckdCY_lPkA'><a href='https://www.youtube.com/watch?v=_ckdCY_lPkA'>You Too Can Build Event-Driven Apps with Apache Kafka</a></a></a></a>",
       "location": "Orlando, FL, USA",
-      "text": "🎙 <a href='https://www.youtube.com/watch?v=_ckdCY_lPkA'><a href='https://www.youtube.com/watch?v=_ckdCY_lPkA'><a href='https://www.youtube.com/watch?v=_ckdCY_lPkA'>You Too Can Build Event-Driven Apps with Apache Kafka</a></a></a><br>✈️ <a href='https://www.google.com/maps/search/?api=1&query=Orlando, FL, USA'>Orlando, FL, USA</a>",
+      "text": "🎙 <a href='https://www.youtube.com/watch?v=_ckdCY_lPkA'><a href='https://www.youtube.com/watch?v=_ckdCY_lPkA'><a href='https://www.youtube.com/watch?v=_ckdCY_lPkA'><a href='https://www.youtube.com/watch?v=_ckdCY_lPkA'>You Too Can Build Event-Driven Apps with Apache Kafka</a></a></a></a><br>✈️ <a href='https://www.google.com/maps/search/?api=1&query=Orlando, FL, USA'>Orlando, FL, USA</a>",
       "headline": "<a href='https://myignite.microsoft.com/home'>Microsoft Ignite 2019</a>"
     },
     "sort": [
@@ -550,6 +577,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "xhSEgHwBSgj4cc4GwIZs",
     "_score": null,
     "_source": {
@@ -560,9 +588,9 @@
       "groupName": "Q4",
       "@timestamp": "2019-11-18T12:00:00Z",
       "eventName": "KubeCon 2019",
-      "talk": "<a href='https://www.youtube.com/watch?v=N0fgEleyOio'><a href='https://www.youtube.com/watch?v=N0fgEleyOio'><a href='https://www.youtube.com/watch?v=N0fgEleyOio'>Building Event Streaming Applications with Serverless Kafka</a></a></a>",
+      "talk": "<a href='https://www.youtube.com/watch?v=N0fgEleyOio'><a href='https://www.youtube.com/watch?v=N0fgEleyOio'><a href='https://www.youtube.com/watch?v=N0fgEleyOio'><a href='https://www.youtube.com/watch?v=N0fgEleyOio'>Building Event Streaming Applications with Serverless Kafka</a></a></a></a>",
       "location": "San Diego, CA, USA",
-      "text": "🎙 <a href='https://www.youtube.com/watch?v=N0fgEleyOio'><a href='https://www.youtube.com/watch?v=N0fgEleyOio'><a href='https://www.youtube.com/watch?v=N0fgEleyOio'>Building Event Streaming Applications with Serverless Kafka</a></a></a><br>✈️ <a href='https://www.google.com/maps/search/?api=1&query=San Diego, CA, USA'>San Diego, CA, USA</a>",
+      "text": "🎙 <a href='https://www.youtube.com/watch?v=N0fgEleyOio'><a href='https://www.youtube.com/watch?v=N0fgEleyOio'><a href='https://www.youtube.com/watch?v=N0fgEleyOio'><a href='https://www.youtube.com/watch?v=N0fgEleyOio'>Building Event Streaming Applications with Serverless Kafka</a></a></a></a><br>✈️ <a href='https://www.google.com/maps/search/?api=1&query=San Diego, CA, USA'>San Diego, CA, USA</a>",
       "headline": "<a href='https://events19.linuxfoundation.org/events/kubecon-cloudnativecon-north-america-2019/'>KubeCon 2019</a>"
     },
     "sort": [
@@ -571,6 +599,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "xxSOgHwBSgj4cc4G-YZk",
     "_score": null,
     "_source": {
@@ -591,6 +620,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "irqTgHwBH4uxy4h1wJRO",
     "_score": null,
     "_source": {
@@ -601,9 +631,9 @@
       "groupName": "Q4",
       "@timestamp": "2019-11-28T12:00:00Z",
       "eventName": "Big Data Conference Europe 2019",
-      "talk": "<a href='https://www.youtube.com/watch?v=OEiQXtbD3mg'><a href='https://www.youtube.com/watch?v=OEiQXtbD3mg'><a href='https://www.youtube.com/watch?v=OEiQXtbD3mg'>Everything you Wanted to Know about Apache Kafka but you Were too Afraid to Ask!</a></a></a>",
+      "talk": "<a href='https://www.youtube.com/watch?v=OEiQXtbD3mg'><a href='https://www.youtube.com/watch?v=OEiQXtbD3mg'><a href='https://www.youtube.com/watch?v=OEiQXtbD3mg'><a href='https://www.youtube.com/watch?v=OEiQXtbD3mg'>Everything you Wanted to Know about Apache Kafka but you Were too Afraid to Ask!</a></a></a></a>",
       "location": "Vilnius, Lithuania",
-      "text": "🎙 <a href='https://www.youtube.com/watch?v=OEiQXtbD3mg'><a href='https://www.youtube.com/watch?v=OEiQXtbD3mg'><a href='https://www.youtube.com/watch?v=OEiQXtbD3mg'>Everything you Wanted to Know about Apache Kafka but you Were too Afraid to Ask!</a></a></a><br>✈️ <a href='https://www.google.com/maps/search/?api=1&query=Vilnius, Lithuania'>Vilnius, Lithuania</a>",
+      "text": "🎙 <a href='https://www.youtube.com/watch?v=OEiQXtbD3mg'><a href='https://www.youtube.com/watch?v=OEiQXtbD3mg'><a href='https://www.youtube.com/watch?v=OEiQXtbD3mg'><a href='https://www.youtube.com/watch?v=OEiQXtbD3mg'>Everything you Wanted to Know about Apache Kafka but you Were too Afraid to Ask!</a></a></a></a><br>✈️ <a href='https://www.google.com/maps/search/?api=1&query=Vilnius, Lithuania'>Vilnius, Lithuania</a>",
       "headline": "<a href='https://bigdataconference.eu/2019/index.html'>Big Data Conference Europe 2019</a>"
     },
     "sort": [
@@ -612,6 +642,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "xx9ZK3sBWbPealB3SxLu",
     "_score": null,
     "_source": {
@@ -632,6 +663,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "dllYK3sBX8jviPbhcY_B",
     "_score": null,
     "_source": {
@@ -652,6 +684,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "xh9XK3sBWbPealB3dxLv",
     "_score": null,
     "_source": {
@@ -672,6 +705,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "xR9RK3sBWbPealB33hLJ",
     "_score": null,
     "_source": {
@@ -692,6 +726,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "dVlTK3sBX8jviPbh3Y-h",
     "_score": null,
     "_source": {
@@ -712,6 +747,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "R1mR8noBX8jviPbhmYtG",
     "_score": null,
     "_source": {
@@ -732,6 +768,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "RVmN8noBX8jviPbh_4vY",
     "_score": null,
     "_source": {
@@ -752,6 +789,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "wx-I8noBWbPealB37BI1",
     "_score": null,
     "_source": {
@@ -772,6 +810,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "Q1mF8noBX8jviPbhyYv2",
     "_score": null,
     "_source": {
@@ -792,6 +831,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "QlmC8noBX8jviPbhhosJ",
     "_score": null,
     "_source": {
@@ -812,6 +852,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "utssNHoBT5srT8xd0ZQN",
     "_score": null,
     "_source": {
@@ -831,6 +872,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "udsoNHoBT5srT8xdGZQw",
     "_score": null,
     "_source": {
@@ -850,6 +892,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "Y7MhNHoBhF7z3dwjZ3Uw",
     "_score": null,
     "_source": {
@@ -869,6 +912,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "YbMcNHoBhF7z3dwjlHW9",
     "_score": null,
     "_source": {
@@ -888,6 +932,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "YLMZNHoBhF7z3dwjO3VI",
     "_score": null,
     "_source": {
@@ -907,6 +952,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "uNsUNHoBT5srT8xdl5QD",
     "_score": null,
     "_source": {
@@ -926,6 +972,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "ttsJNHoBT5srT8xdlJQ7",
     "_score": null,
     "_source": {
@@ -945,6 +992,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "t9sRNHoBT5srT8xdoJS5",
     "_score": null,
     "_source": {
@@ -964,6 +1012,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "s9sCL3oBT5srT8xdcJTR",
     "_score": null,
     "_source": {
@@ -983,6 +1032,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "9rP9LnoBhF7z3dwjJnQ0",
     "_score": null,
     "_source": {
@@ -1002,6 +1052,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "97MGL3oBhF7z3dwjrnRi",
     "_score": null,
     "_source": {
@@ -1021,6 +1072,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "-LMKL3oBhF7z3dwjBHSq",
     "_score": null,
     "_source": {
@@ -1040,6 +1092,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "9LP4LnoBhF7z3dwjYnQ1",
     "_score": null,
     "_source": {
@@ -1059,6 +1112,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "stv1LnoBT5srT8xdEpRp",
     "_score": null,
     "_source": {
@@ -1078,6 +1132,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "sdvxLnoBT5srT8xdi5Rp",
     "_score": null,
     "_source": {
@@ -1097,6 +1152,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "sNvsLnoBT5srT8xd5JTa",
     "_score": null,
     "_source": {
@@ -1116,6 +1172,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "87PpLnoBhF7z3dwjRXR0",
     "_score": null,
     "_source": {
@@ -1135,6 +1192,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "r9vlLnoBT5srT8xdH5Q9",
     "_score": null,
     "_source": {
@@ -1154,6 +1212,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "vbOnKXoBhF7z3dwjU3TB",
     "_score": null,
     "_source": {
@@ -1173,6 +1232,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "vLOiKXoBhF7z3dwjNnRl",
     "_score": null,
     "_source": {
@@ -1192,6 +1252,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "urOcKXoBhF7z3dwjTHSt",
     "_score": null,
     "_source": {
@@ -1211,6 +1272,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "qduTKXoBT5srT8xd7ZR2",
     "_score": null,
     "_source": {
@@ -1230,6 +1292,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "ubOQKXoBhF7z3dwju3TR",
     "_score": null,
     "_source": {
@@ -1249,6 +1312,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "qNuMKXoBT5srT8xdZpQH",
     "_score": null,
     "_source": {
@@ -1268,6 +1332,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "p9uGKXoBT5srT8xd0JTE",
     "_score": null,
     "_source": {
@@ -1287,6 +1352,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "ptubJnoBT5srT8xdWJSv",
     "_score": null,
     "_source": {
@@ -1306,6 +1372,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "mrOUJnoBhF7z3dwjVnSL",
     "_score": null,
     "_source": {
@@ -1325,6 +1392,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "pduSJnoBT5srT8xdnpRe",
     "_score": null,
     "_source": {
@@ -1344,6 +1412,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "mbORJnoBhF7z3dwjZXT0",
     "_score": null,
     "_source": {
@@ -1363,6 +1432,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "pNuPJnoBT5srT8xdw5Ry",
     "_score": null,
     "_source": {
@@ -1373,8 +1443,8 @@
       "groupName": "Q2",
       "@timestamp": "2021-05-25T12:00:00Z",
       "eventName": "QCon Plus 2021",
-      "talk": "<a href='https://www.infoq.com/presentations/silo-systems-streaming-data/'><a href='https://www.infoq.com/presentations/silo-systems-streaming-data/'><a href='https://www.infoq.com/presentations/silo-systems-streaming-data/'>From Batch to Streams: Building Value from Data In-Motion</a></a></a>",
-      "text": "🎙 <a href='https://www.infoq.com/presentations/silo-systems-streaming-data/'><a href='https://www.infoq.com/presentations/silo-systems-streaming-data/'><a href='https://www.infoq.com/presentations/silo-systems-streaming-data/'>From Batch to Streams: Building Value from Data In-Motion</a></a></a><br>🎥 Online",
+      "talk": "<a href='https://www.infoq.com/presentations/silo-systems-streaming-data/'><a href='https://www.infoq.com/presentations/silo-systems-streaming-data/'><a href='https://www.infoq.com/presentations/silo-systems-streaming-data/'><a href='https://www.infoq.com/presentations/silo-systems-streaming-data/'>From Batch to Streams: Building Value from Data In-Motion</a></a></a></a>",
+      "text": "🎙 <a href='https://www.infoq.com/presentations/silo-systems-streaming-data/'><a href='https://www.infoq.com/presentations/silo-systems-streaming-data/'><a href='https://www.infoq.com/presentations/silo-systems-streaming-data/'><a href='https://www.infoq.com/presentations/silo-systems-streaming-data/'>From Batch to Streams: Building Value from Data In-Motion</a></a></a></a><br>🎥 Online",
       "headline": "<a href='https://plus.qconferences.com/plus2021/presentation/batch-streams-building-value-data-motion'>QCon Plus 2021</a>"
     },
     "sort": [
@@ -1383,6 +1453,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "o9uNJnoBT5srT8xdi5Tr",
     "_score": null,
     "_source": {
@@ -1393,8 +1464,8 @@
       "groupName": "Q2",
       "@timestamp": "2021-05-27T12:00:00Z",
       "eventName": "GopherCon Europe 2021",
-      "talk": "<a href='https://talks.riferrei.com/Zf9dD6'><a href='https://talks.riferrei.com/Zf9dD6'><a href='https://talks.riferrei.com/Zf9dD6'>OpenTelemetry for Dummies: Instrumenting Go Apps</a></a></a>",
-      "text": "🎙 <a href='https://talks.riferrei.com/Zf9dD6'><a href='https://talks.riferrei.com/Zf9dD6'><a href='https://talks.riferrei.com/Zf9dD6'>OpenTelemetry for Dummies: Instrumenting Go Apps</a></a></a><br>🎥 Online",
+      "talk": "<a href='https://talks.riferrei.com/Zf9dD6'><a href='https://talks.riferrei.com/Zf9dD6'><a href='https://talks.riferrei.com/Zf9dD6'><a href='https://talks.riferrei.com/Zf9dD6'>OpenTelemetry for Dummies: Instrumenting Go Apps</a></a></a></a>",
+      "text": "🎙 <a href='https://talks.riferrei.com/Zf9dD6'><a href='https://talks.riferrei.com/Zf9dD6'><a href='https://talks.riferrei.com/Zf9dD6'><a href='https://talks.riferrei.com/Zf9dD6'>OpenTelemetry for Dummies: Instrumenting Go Apps</a></a></a></a><br>🎥 Online",
       "headline": "<a href='https://gophercon.eu/'>GopherCon Europe 2021</a>"
     },
     "sort": [
@@ -1403,6 +1474,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "mLOMJnoBhF7z3dwjNnTb",
     "_score": null,
     "_source": {
@@ -1422,6 +1494,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "otuKJnoBT5srT8xdwJRv",
     "_score": null,
     "_source": {
@@ -1432,8 +1505,8 @@
       "groupName": "Q2",
       "@timestamp": "2021-06-15T10:00:00Z",
       "eventName": "Berlin Buzzwords 2021",
-      "talk": "<a href='https://talks.riferrei.com/xLQpKh'><a href='https://talks.riferrei.com/xLQpKh'><a href='https://talks.riferrei.com/xLQpKh'>Building Observable Streaming Systems with OpenTelemetry</a></a></a>",
-      "text": "🎙 <a href='https://talks.riferrei.com/xLQpKh'><a href='https://talks.riferrei.com/xLQpKh'><a href='https://talks.riferrei.com/xLQpKh'>Building Observable Streaming Systems with OpenTelemetry</a></a></a><br>🎥 Online",
+      "talk": "<a href='https://talks.riferrei.com/xLQpKh'><a href='https://talks.riferrei.com/xLQpKh'><a href='https://talks.riferrei.com/xLQpKh'><a href='https://talks.riferrei.com/xLQpKh'>Building Observable Streaming Systems with OpenTelemetry</a></a></a></a>",
+      "text": "🎙 <a href='https://talks.riferrei.com/xLQpKh'><a href='https://talks.riferrei.com/xLQpKh'><a href='https://talks.riferrei.com/xLQpKh'><a href='https://talks.riferrei.com/xLQpKh'>Building Observable Streaming Systems with OpenTelemetry</a></a></a></a><br>🎥 Online",
       "headline": "<a href='https://2021.berlinbuzzwords.de/'>Berlin Buzzwords 2021</a>"
     },
     "sort": [
@@ -1442,6 +1515,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "oduHJnoBT5srT8xdXZQV",
     "_score": null,
     "_source": {
@@ -1452,8 +1526,8 @@
       "groupName": "Q2",
       "@timestamp": "2021-06-16T10:00:00Z",
       "eventName": "JNation 2021",
-      "talk": "<a href='https://talks.riferrei.com/mfSXIU'><a href='https://talks.riferrei.com/mfSXIU'><a href='https://talks.riferrei.com/mfSXIU'>Hidden Secrets of Instrumenting JVM Apps with OpenTelemetry</a></a></a>",
-      "text": "🎙 <a href='https://talks.riferrei.com/mfSXIU'><a href='https://talks.riferrei.com/mfSXIU'><a href='https://talks.riferrei.com/mfSXIU'>Hidden Secrets of Instrumenting JVM Apps with OpenTelemetry</a></a></a><br>🎥 Online",
+      "talk": "<a href='https://talks.riferrei.com/mfSXIU'><a href='https://talks.riferrei.com/mfSXIU'><a href='https://talks.riferrei.com/mfSXIU'><a href='https://talks.riferrei.com/mfSXIU'>Hidden Secrets of Instrumenting JVM Apps with OpenTelemetry</a></a></a></a>",
+      "text": "🎙 <a href='https://talks.riferrei.com/mfSXIU'><a href='https://talks.riferrei.com/mfSXIU'><a href='https://talks.riferrei.com/mfSXIU'><a href='https://talks.riferrei.com/mfSXIU'>Hidden Secrets of Instrumenting JVM Apps with OpenTelemetry</a></a></a></a><br>🎥 Online",
       "headline": "<a href='https://2021.jnation.pt/'>JNation 2021</a>"
     },
     "sort": [
@@ -1462,6 +1536,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "lbNYJnoBhF7z3dwjlHQE",
     "_score": null,
     "_source": {
@@ -1472,8 +1547,8 @@
       "groupName": "Q2",
       "@timestamp": "2021-06-16T15:00:00Z",
       "eventName": "Pulsar Summit NA 2021",
-      "talk": "<a href='https://talks.riferrei.com/Y20vXg'><a href='https://talks.riferrei.com/Y20vXg'><a href='https://talks.riferrei.com/Y20vXg'>Down to the Rabbit Hole with Pulsar I/O</a></a></a>",
-      "text": "🎙 <a href='https://talks.riferrei.com/Y20vXg'><a href='https://talks.riferrei.com/Y20vXg'><a href='https://talks.riferrei.com/Y20vXg'>Down to the Rabbit Hole with Pulsar I/O</a></a></a><br>🎥 Online",
+      "talk": "<a href='https://talks.riferrei.com/Y20vXg'><a href='https://talks.riferrei.com/Y20vXg'><a href='https://talks.riferrei.com/Y20vXg'><a href='https://talks.riferrei.com/Y20vXg'>Down to the Rabbit Hole with Pulsar I/O</a></a></a></a>",
+      "text": "🎙 <a href='https://talks.riferrei.com/Y20vXg'><a href='https://talks.riferrei.com/Y20vXg'><a href='https://talks.riferrei.com/Y20vXg'><a href='https://talks.riferrei.com/Y20vXg'>Down to the Rabbit Hole with Pulsar I/O</a></a></a></a><br>🎥 Online",
       "headline": "<a href='https://www.na2021.pulsar-summit.org/'>Pulsar Summit NA 2021</a>"
     },
     "sort": [
@@ -1482,6 +1557,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "hllqEXsBX8jviPbh242e",
     "_score": null,
     "_source": {
@@ -1492,8 +1568,8 @@
       "groupName": "Q3",
       "@timestamp": "2021-08-03T12:00:00Z",
       "eventName": "Elastic Livestream",
-      "talk": "<a href='https://talks.riferrei.com/NTQ4xQ'><a href='https://talks.riferrei.com/NTQ4xQ'><a href='https://talks.riferrei.com/NTQ4xQ'>Elasticsearch for Gophers</a></a></a>",
-      "text": "🎙 <a href='https://talks.riferrei.com/NTQ4xQ'><a href='https://talks.riferrei.com/NTQ4xQ'><a href='https://talks.riferrei.com/NTQ4xQ'>Elasticsearch for Gophers</a></a></a><br>🎥 Online",
+      "talk": "<a href='https://talks.riferrei.com/NTQ4xQ'><a href='https://talks.riferrei.com/NTQ4xQ'><a href='https://talks.riferrei.com/NTQ4xQ'><a href='https://talks.riferrei.com/NTQ4xQ'>Elasticsearch for Gophers</a></a></a></a>",
+      "text": "🎙 <a href='https://talks.riferrei.com/NTQ4xQ'><a href='https://talks.riferrei.com/NTQ4xQ'><a href='https://talks.riferrei.com/NTQ4xQ'><a href='https://talks.riferrei.com/NTQ4xQ'>Elasticsearch for Gophers</a></a></a></a><br>🎥 Online",
       "headline": "<a href='https://community.elastic.co/events/details/elastic-united-states-and-canada-virtual-presents-elasticsearch-for-gophers-work-with-me-and-ama/'>Elastic Livestream</a>"
     },
     "sort": [
@@ -1502,6 +1578,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "rtuqKnoBT5srT8xddZSr",
     "_score": null,
     "_source": {
@@ -1521,6 +1598,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "ah8OdXsBUCMKpmESDbIP",
     "_score": null,
     "_source": {
@@ -1540,6 +1618,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "aB_sO3sBUCMKpmESTrIJ",
     "_score": null,
     "_source": {
@@ -1559,6 +1638,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "qVk-E3sBX8jviPbhTo3L",
     "_score": null,
     "_source": {
@@ -1569,8 +1649,8 @@
       "groupName": "Q4",
       "@timestamp": "2021-10-06T10:00:00Z",
       "eventName": "ElasticON Global 2021",
-      "talk": "<a href='https://www.elastic.co/elasticon/archive/2021/global/take-me-down-to-the-paradise-city-where-data-streams-are-easy-with-storage-to-infinity'><a href='https://www.elastic.co/elasticon/archive/2021/global/take-me-down-to-the-paradise-city-where-data-streams-are-easy-with-storage-to-infinity'><a href='https://www.elastic.co/elasticon/archive/2021/global/take-me-down-to-the-paradise-city-where-data-streams-are-easy-with-storage-to-infinity'>Take me Down to the Paradise City where Data Streams are Easy with Storage to Infinity</a></a></a>",
-      "text": "🎙 <a href='https://www.elastic.co/elasticon/archive/2021/global/take-me-down-to-the-paradise-city-where-data-streams-are-easy-with-storage-to-infinity'><a href='https://www.elastic.co/elasticon/archive/2021/global/take-me-down-to-the-paradise-city-where-data-streams-are-easy-with-storage-to-infinity'><a href='https://www.elastic.co/elasticon/archive/2021/global/take-me-down-to-the-paradise-city-where-data-streams-are-easy-with-storage-to-infinity'>Take me Down to the Paradise City where Data Streams are Easy with Storage to Infinity</a></a></a><br>🎥 Online",
+      "talk": "<a href='https://www.elastic.co/elasticon/archive/2021/global/take-me-down-to-the-paradise-city-where-data-streams-are-easy-with-storage-to-infinity'><a href='https://www.elastic.co/elasticon/archive/2021/global/take-me-down-to-the-paradise-city-where-data-streams-are-easy-with-storage-to-infinity'><a href='https://www.elastic.co/elasticon/archive/2021/global/take-me-down-to-the-paradise-city-where-data-streams-are-easy-with-storage-to-infinity'><a href='https://www.elastic.co/elasticon/archive/2021/global/take-me-down-to-the-paradise-city-where-data-streams-are-easy-with-storage-to-infinity'>Take me Down to the Paradise City where Data Streams are Easy with Storage to Infinity</a></a></a></a>",
+      "text": "🎙 <a href='https://www.elastic.co/elasticon/archive/2021/global/take-me-down-to-the-paradise-city-where-data-streams-are-easy-with-storage-to-infinity'><a href='https://www.elastic.co/elasticon/archive/2021/global/take-me-down-to-the-paradise-city-where-data-streams-are-easy-with-storage-to-infinity'><a href='https://www.elastic.co/elasticon/archive/2021/global/take-me-down-to-the-paradise-city-where-data-streams-are-easy-with-storage-to-infinity'><a href='https://www.elastic.co/elasticon/archive/2021/global/take-me-down-to-the-paradise-city-where-data-streams-are-easy-with-storage-to-infinity'>Take me Down to the Paradise City where Data Streams are Easy with Storage to Infinity</a></a></a></a><br>🎥 Online",
       "headline": "<a href='https://www.elastic.co/elasticon/global'>ElasticON Global 2021</a>"
     },
     "sort": [
@@ -1579,26 +1659,7 @@
   },
   {
     "_index": "events",
-    "_id": "elwlT3sBiCQ1ZX5zfyQ9",
-    "_score": null,
-    "_source": {
-      "website": "https://pulsar-summit.org/en/event/europe-2021",
-      "thumbnail": "https://calendar.riferrei.com/images/pulsar-summit.png",
-      "mediaUrl": "https://calendar.riferrei.com/images/pulsar-summit.png",
-      "resources": "https://talks.riferrei.com/lH4iWy",
-      "groupName": "Q4",
-      "@timestamp": "2021-10-06T12:00:00Z",
-      "eventName": "Pulsar Summit Europe 2021",
-      "talk": "<a href='https://talks.riferrei.com/lH4iWy'><a href='https://talks.riferrei.com/lH4iWy'><a href='https://talks.riferrei.com/lH4iWy'>Writing Custom Sink Connectors for Pulsar I/O</a></a></a>",
-      "text": "🎙 <a href='https://talks.riferrei.com/lH4iWy'><a href='https://talks.riferrei.com/lH4iWy'><a href='https://talks.riferrei.com/lH4iWy'>Writing Custom Sink Connectors for Pulsar I/O</a></a></a><br>🎥 Online",
-      "headline": "<a href='https://pulsar-summit.org/en/event/europe-2021'>Pulsar Summit Europe 2021</a>"
-    },
-    "sort": [
-      1633521600000
-    ]
-  },
-  {
-    "_index": "events",
+    "_type": "_doc",
     "_id": "Th1GxHoBck0mfDAxFkBE",
     "_score": null,
     "_source": {
@@ -1609,8 +1670,8 @@
       "groupName": "Q4",
       "@timestamp": "2021-10-06T12:00:00Z",
       "eventName": "ElasticON Global 2021",
-      "talk": "<a href='https://www.elastic.co/elasticon/archive/2021/global/building-observable-streaming-systems-with-elastic-apm'><a href='https://www.elastic.co/elasticon/archive/2021/global/building-observable-streaming-systems-with-elastic-apm'><a href='https://www.elastic.co/elasticon/archive/2021/global/building-observable-streaming-systems-with-elastic-apm'>Building Observable Streaming Systems with Elastic APM</a></a></a>",
-      "text": "🎙 <a href='https://www.elastic.co/elasticon/archive/2021/global/building-observable-streaming-systems-with-elastic-apm'><a href='https://www.elastic.co/elasticon/archive/2021/global/building-observable-streaming-systems-with-elastic-apm'><a href='https://www.elastic.co/elasticon/archive/2021/global/building-observable-streaming-systems-with-elastic-apm'>Building Observable Streaming Systems with Elastic APM</a></a></a><br>🎥 Online",
+      "talk": "<a href='https://www.elastic.co/elasticon/archive/2021/global/building-observable-streaming-systems-with-elastic-apm'><a href='https://www.elastic.co/elasticon/archive/2021/global/building-observable-streaming-systems-with-elastic-apm'><a href='https://www.elastic.co/elasticon/archive/2021/global/building-observable-streaming-systems-with-elastic-apm'><a href='https://www.elastic.co/elasticon/archive/2021/global/building-observable-streaming-systems-with-elastic-apm'>Building Observable Streaming Systems with Elastic APM</a></a></a></a>",
+      "text": "🎙 <a href='https://www.elastic.co/elasticon/archive/2021/global/building-observable-streaming-systems-with-elastic-apm'><a href='https://www.elastic.co/elasticon/archive/2021/global/building-observable-streaming-systems-with-elastic-apm'><a href='https://www.elastic.co/elasticon/archive/2021/global/building-observable-streaming-systems-with-elastic-apm'><a href='https://www.elastic.co/elasticon/archive/2021/global/building-observable-streaming-systems-with-elastic-apm'>Building Observable Streaming Systems with Elastic APM</a></a></a></a><br>🎥 Online",
       "headline": "<a href='https://www.elastic.co/elasticon/global'>ElasticON Global 2021</a>"
     },
     "sort": [
@@ -1619,6 +1680,28 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
+    "_id": "elwlT3sBiCQ1ZX5zfyQ9",
+    "_score": null,
+    "_source": {
+      "website": "https://pulsar-summit.org/en/event/europe-2021",
+      "thumbnail": "https://calendar.riferrei.com/images/pulsar-summit.png",
+      "mediaUrl": "https://calendar.riferrei.com/images/pulsar-summit.png",
+      "resources": "https://talks.riferrei.com/lH4iWy",
+      "groupName": "Q4",
+      "@timestamp": "2021-10-06T12:00:00Z",
+      "eventName": "Pulsar Summit Europe 2021",
+      "talk": "<a href='https://talks.riferrei.com/lH4iWy'><a href='https://talks.riferrei.com/lH4iWy'><a href='https://talks.riferrei.com/lH4iWy'><a href='https://talks.riferrei.com/lH4iWy'>Writing Custom Sink Connectors for Pulsar I/O</a></a></a></a>",
+      "text": "🎙 <a href='https://talks.riferrei.com/lH4iWy'><a href='https://talks.riferrei.com/lH4iWy'><a href='https://talks.riferrei.com/lH4iWy'><a href='https://talks.riferrei.com/lH4iWy'>Writing Custom Sink Connectors for Pulsar I/O</a></a></a></a><br>🎥 Online",
+      "headline": "<a href='https://pulsar-summit.org/en/event/europe-2021'>Pulsar Summit Europe 2021</a>"
+    },
+    "sort": [
+      1633521600000
+    ]
+  },
+  {
+    "_index": "events",
+    "_type": "_doc",
     "_id": "xB8yE3sBWbPealB3jxLf",
     "_score": null,
     "_source": {
@@ -1629,8 +1712,8 @@
       "groupName": "Q4",
       "@timestamp": "2021-10-12T12:00:00Z",
       "eventName": "SRECon 2021",
-      "talk": "<a href='https://talks.riferrei.com/VRBRea'><a href='https://talks.riferrei.com/VRBRea'><a href='https://talks.riferrei.com/VRBRea'>Take me Down to the Paradise City Where the Metric is Green and Traces are Pretty</a></a></a>",
-      "text": "🎙 <a href='https://talks.riferrei.com/VRBRea'><a href='https://talks.riferrei.com/VRBRea'><a href='https://talks.riferrei.com/VRBRea'>Take me Down to the Paradise City Where the Metric is Green and Traces are Pretty</a></a></a><br>🎥 Online",
+      "talk": "<a href='https://talks.riferrei.com/VRBRea'><a href='https://talks.riferrei.com/VRBRea'><a href='https://talks.riferrei.com/VRBRea'><a href='https://talks.riferrei.com/VRBRea'>Take me Down to the Paradise City Where the Metric is Green and Traces are Pretty</a></a></a></a>",
+      "text": "🎙 <a href='https://talks.riferrei.com/VRBRea'><a href='https://talks.riferrei.com/VRBRea'><a href='https://talks.riferrei.com/VRBRea'><a href='https://talks.riferrei.com/VRBRea'>Take me Down to the Paradise City Where the Metric is Green and Traces are Pretty</a></a></a></a><br>🎥 Online",
       "headline": "<a href='https://www.usenix.org/conference/srecon21'>SRECon 2021</a>"
     },
     "sort": [
@@ -1639,6 +1722,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "LYXNr3oB110si52jlLfi",
     "_score": null,
     "_source": {
@@ -1649,9 +1733,9 @@
       "groupName": "Q4",
       "@timestamp": "2021-10-19T12:00:00Z",
       "eventName": "All Things Open 2021",
-      "talk": "<a href='https://talks.riferrei.com/fvDa2r'><a href='https://talks.riferrei.com/fvDa2r'><a href='https://talks.riferrei.com/fvDa2r'>What is Distributed Tracing and, Why Should you Care About it?</a></a></a>",
+      "talk": "<a href='https://talks.riferrei.com/fvDa2r'><a href='https://talks.riferrei.com/fvDa2r'><a href='https://talks.riferrei.com/fvDa2r'><a href='https://talks.riferrei.com/fvDa2r'>What is Distributed Tracing and, Why Should you Care About it?</a></a></a></a>",
       "location": "Raleigh, NC, USA",
-      "text": "🎙 <a href='https://talks.riferrei.com/fvDa2r'><a href='https://talks.riferrei.com/fvDa2r'><a href='https://talks.riferrei.com/fvDa2r'>What is Distributed Tracing and, Why Should you Care About it?</a></a></a><br>✈️ <a href='https://www.google.com/maps/search/?api=1&query=Raleigh, NC, USA'>Raleigh, NC, USA</a>",
+      "text": "🎙 <a href='https://talks.riferrei.com/fvDa2r'><a href='https://talks.riferrei.com/fvDa2r'><a href='https://talks.riferrei.com/fvDa2r'><a href='https://talks.riferrei.com/fvDa2r'>What is Distributed Tracing and, Why Should you Care About it?</a></a></a></a><br>✈️ <a href='https://www.google.com/maps/search/?api=1&query=Raleigh, NC, USA'>Raleigh, NC, USA</a>",
       "headline": "<a href='https://2021.allthingsopen.org/'>All Things Open 2021</a>"
     },
     "sort": [
@@ -1660,6 +1744,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "5zp4-XsB1yHbDWjDKjNy",
     "_score": null,
     "_source": {
@@ -1670,8 +1755,8 @@
       "groupName": "Q4",
       "@timestamp": "2021-11-10T12:00:00Z",
       "eventName": "DevRelCon 2021",
-      "talk": "<a href='https://talks.riferrei.com/B8Z6Jm'><a href='https://talks.riferrei.com/B8Z6Jm'><a href='https://talks.riferrei.com/B8Z6Jm'>The Subtle Art of Giving Code Walkthrough Talks</a></a></a>",
-      "text": "🎙 <a href='https://talks.riferrei.com/B8Z6Jm'><a href='https://talks.riferrei.com/B8Z6Jm'><a href='https://talks.riferrei.com/B8Z6Jm'>The Subtle Art of Giving Code Walkthrough Talks</a></a></a><br>🎥 Online",
+      "talk": "<a href='https://talks.riferrei.com/B8Z6Jm'><a href='https://talks.riferrei.com/B8Z6Jm'><a href='https://talks.riferrei.com/B8Z6Jm'><a href='https://talks.riferrei.com/B8Z6Jm'>The Subtle Art of Giving Code Walkthrough Talks</a></a></a></a>",
+      "text": "🎙 <a href='https://talks.riferrei.com/B8Z6Jm'><a href='https://talks.riferrei.com/B8Z6Jm'><a href='https://talks.riferrei.com/B8Z6Jm'><a href='https://talks.riferrei.com/B8Z6Jm'>The Subtle Art of Giving Code Walkthrough Talks</a></a></a></a><br>🎥 Online",
       "headline": "<a href='https://2021.devrel.net/'>DevRelCon 2021</a>"
     },
     "sort": [
@@ -1680,6 +1765,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "5jpx-XsB1yHbDWjDTjPP",
     "_score": null,
     "_source": {
@@ -1690,9 +1776,9 @@
       "groupName": "Q4",
       "@timestamp": "2021-11-29T18:25:00Z",
       "eventName": "AWS re:Invent 2021",
-      "talk": "<a href='https://www.elastic.co/videos/aws-reinvent-observability-for-your-aws-environment'><a href='https://www.elastic.co/videos/aws-reinvent-observability-for-your-aws-environment'><a href='https://www.elastic.co/videos/aws-reinvent-observability-for-your-aws-environment'>Observability for your AWS Environment, as you Modernize</a></a></a>",
+      "talk": "<a href='https://www.elastic.co/videos/aws-reinvent-observability-for-your-aws-environment'><a href='https://www.elastic.co/videos/aws-reinvent-observability-for-your-aws-environment'><a href='https://www.elastic.co/videos/aws-reinvent-observability-for-your-aws-environment'><a href='https://www.elastic.co/videos/aws-reinvent-observability-for-your-aws-environment'>Observability for your AWS Environment, as you Modernize</a></a></a></a>",
       "location": "Las Vegas, NV, USA",
-      "text": "🎙 <a href='https://www.elastic.co/videos/aws-reinvent-observability-for-your-aws-environment'><a href='https://www.elastic.co/videos/aws-reinvent-observability-for-your-aws-environment'><a href='https://www.elastic.co/videos/aws-reinvent-observability-for-your-aws-environment'>Observability for your AWS Environment, as you Modernize</a></a></a><br>✈️ <a href='https://www.google.com/maps/search/?api=1&query=Las Vegas, NV, USA'>Las Vegas, NV, USA</a>",
+      "text": "🎙 <a href='https://www.elastic.co/videos/aws-reinvent-observability-for-your-aws-environment'><a href='https://www.elastic.co/videos/aws-reinvent-observability-for-your-aws-environment'><a href='https://www.elastic.co/videos/aws-reinvent-observability-for-your-aws-environment'><a href='https://www.elastic.co/videos/aws-reinvent-observability-for-your-aws-environment'>Observability for your AWS Environment, as you Modernize</a></a></a></a><br>✈️ <a href='https://www.google.com/maps/search/?api=1&query=Las Vegas, NV, USA'>Las Vegas, NV, USA</a>",
       "headline": "<a href='https://reinvent.awsevents.com'>AWS re:Invent 2021</a>"
     },
     "sort": [
@@ -1701,6 +1787,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "Y41QLn0BPFu3KEGJFfPm",
     "_score": null,
     "_source": {
@@ -1711,8 +1798,8 @@
       "groupName": "Q4",
       "@timestamp": "2021-12-02T12:00:00Z",
       "eventName": "HashiTalks: Brasil 2021",
-      "talk": "<a href='https://www.youtube.com/watch?v=lGLmHacl25E'><a href='https://www.youtube.com/watch?v=lGLmHacl25E'><a href='https://www.youtube.com/watch?v=lGLmHacl25E'>Misturando Código de Aplicação com Infraestrutura no Terraform</a></a></a>",
-      "text": "🎙 <a href='https://www.youtube.com/watch?v=lGLmHacl25E'><a href='https://www.youtube.com/watch?v=lGLmHacl25E'><a href='https://www.youtube.com/watch?v=lGLmHacl25E'>Misturando Código de Aplicação com Infraestrutura no Terraform</a></a></a><br>🎥 Online",
+      "talk": "<a href='https://www.youtube.com/watch?v=lGLmHacl25E'><a href='https://www.youtube.com/watch?v=lGLmHacl25E'><a href='https://www.youtube.com/watch?v=lGLmHacl25E'><a href='https://www.youtube.com/watch?v=lGLmHacl25E'>Misturando Código de Aplicação com Infraestrutura no Terraform</a></a></a></a>",
+      "text": "🎙 <a href='https://www.youtube.com/watch?v=lGLmHacl25E'><a href='https://www.youtube.com/watch?v=lGLmHacl25E'><a href='https://www.youtube.com/watch?v=lGLmHacl25E'><a href='https://www.youtube.com/watch?v=lGLmHacl25E'>Misturando Código de Aplicação com Infraestrutura no Terraform</a></a></a></a><br>🎥 Online",
       "headline": "<a href='https://events.hashicorp.com/hashitalksbrasil2021'>HashiTalks: Brasil 2021</a>"
     },
     "sort": [
@@ -1721,6 +1808,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "32wHjH0ByN3fQ5D9acIY",
     "_score": null,
     "_source": {
@@ -1740,6 +1828,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "pWz9Un0ByN3fQ5D9gL6-",
     "_score": null,
     "_source": {
@@ -1750,8 +1839,8 @@
       "groupName": "Q4",
       "@timestamp": "2021-12-14T12:00:00Z",
       "eventName": "DevOps Fest 2021",
-      "talk": "<a href='https://www.youtube.com/watch?v=XVE3hHW7Wvs'><a href='https://www.youtube.com/watch?v=XVE3hHW7Wvs'><a href='https://www.youtube.com/watch?v=XVE3hHW7Wvs'>OpenTelemetry for Dummies: Instrumenting Go Apps</a></a></a>",
-      "text": "🎙 <a href='https://www.youtube.com/watch?v=XVE3hHW7Wvs'><a href='https://www.youtube.com/watch?v=XVE3hHW7Wvs'><a href='https://www.youtube.com/watch?v=XVE3hHW7Wvs'>OpenTelemetry for Dummies: Instrumenting Go Apps</a></a></a><br>🎥 Online",
+      "talk": "<a href='https://www.youtube.com/watch?v=XVE3hHW7Wvs'><a href='https://www.youtube.com/watch?v=XVE3hHW7Wvs'><a href='https://www.youtube.com/watch?v=XVE3hHW7Wvs'><a href='https://www.youtube.com/watch?v=XVE3hHW7Wvs'>OpenTelemetry for Dummies: Instrumenting Go Apps</a></a></a></a>",
+      "text": "🎙 <a href='https://www.youtube.com/watch?v=XVE3hHW7Wvs'><a href='https://www.youtube.com/watch?v=XVE3hHW7Wvs'><a href='https://www.youtube.com/watch?v=XVE3hHW7Wvs'><a href='https://www.youtube.com/watch?v=XVE3hHW7Wvs'>OpenTelemetry for Dummies: Instrumenting Go Apps</a></a></a></a><br>🎥 Online",
       "headline": "<a href='https://www.sympla.com.br/devops-fest__1405367'>DevOps Fest 2021</a>"
     },
     "sort": [
@@ -1760,6 +1849,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "Njv4d34B-pa8UFP-GpRY",
     "_score": null,
     "_source": {
@@ -1779,6 +1869,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "Xdr2d34BxnnP5FibKauW",
     "_score": null,
     "_source": {
@@ -1789,8 +1880,8 @@
       "groupName": "Q1",
       "@timestamp": "2022-03-03T12:00:00Z",
       "eventName": "Elastic Observability Webinar",
-      "talk": "<a href='https://www.elastic.co/virtual-events/building-software-reliability-with-distributed-tracing'><a href='https://www.elastic.co/virtual-events/building-software-reliability-with-distributed-tracing'>Building Software Reliability with Distributed Tracing</a></a>",
-      "text": "🎙 <a href='https://www.elastic.co/virtual-events/building-software-reliability-with-distributed-tracing'><a href='https://www.elastic.co/virtual-events/building-software-reliability-with-distributed-tracing'>Building Software Reliability with Distributed Tracing</a></a><br>🎥 Online",
+      "talk": "<a href='https://www.elastic.co/virtual-events/building-software-reliability-with-distributed-tracing'><a href='https://www.elastic.co/virtual-events/building-software-reliability-with-distributed-tracing'><a href='https://www.elastic.co/virtual-events/building-software-reliability-with-distributed-tracing'>Building Software Reliability with Distributed Tracing</a></a></a>",
+      "text": "🎙 <a href='https://www.elastic.co/virtual-events/building-software-reliability-with-distributed-tracing'><a href='https://www.elastic.co/virtual-events/building-software-reliability-with-distributed-tracing'><a href='https://www.elastic.co/virtual-events/building-software-reliability-with-distributed-tracing'>Building Software Reliability with Distributed Tracing</a></a></a><br>🎥 Online",
       "headline": "<a href='https://www.elastic.co/virtual-events/building-software-reliability-with-distributed-tracing'>Elastic Observability Webinar</a>"
     },
     "sort": [
@@ -1799,6 +1890,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "W8cA5H4BC_QVzu-EBGe2",
     "_score": null,
     "_source": {
@@ -1818,6 +1910,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "4uNYIn8Buv6ZWabtbLy9",
     "_score": null,
     "_source": {
@@ -1837,6 +1930,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "5OOuTH8Buv6ZWabt6rx_",
     "_score": null,
     "_source": {
@@ -1857,6 +1951,7 @@
   },
   {
     "_index": "events",
+    "_type": "_doc",
     "_id": "G0B5-n8Bw_wGcxjeryeo",
     "_score": null,
     "_source": {
