@@ -1952,6 +1952,26 @@
   {
     "_index": "events",
     "_type": "_doc",
+    "_id": "DfKRKoABsCpMpjamp0tM",
+    "_score": null,
+    "_source": {
+      "website": "https://2022.berlinbuzzwords.de",
+      "thumbnail": "https://calendar.riferrei.com/images/berlin-buzzwords-2022.jpeg",
+      "mediaUrl": "https://calendar.riferrei.com/images/berlin-buzzwords-2022.jpeg",
+      "groupName": "Q2",
+      "@timestamp": "2022-06-14T12:00:00Z",
+      "eventName": "Berlin Buzzwords 2022",
+      "talk": "Do It Yourself: Programmable Metrics using OpenTelemetry",
+      "text": "🎙 Do It Yourself: Programmable Metrics using OpenTelemetry<br>🎥 Online",
+      "headline": "<a href='https://2022.berlinbuzzwords.de'>Berlin Buzzwords 2022</a>"
+    },
+    "sort": [
+      1655208000000
+    ]
+  },
+  {
+    "_index": "events",
+    "_type": "_doc",
     "_id": "G0B5-n8Bw_wGcxjeryeo",
     "_score": null,
     "_source": {
