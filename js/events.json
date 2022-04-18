@@ -1911,6 +1911,26 @@
   {
     "_index": "events",
     "_type": "_doc",
+    "_id": "YonkPIABWqPH94ZZshV2",
+    "_score": null,
+    "_source": {
+      "website": "https://trooper.hotmart.com/hnc-conference-external",
+      "thumbnail": "https://calendar.riferrei.com/images/hotmart_hot_and_cold_conf.png",
+      "mediaUrl": "https://calendar.riferrei.com/images/hotmart_hot_and_cold_conf.png",
+      "groupName": "Q2",
+      "@timestamp": "2022-04-27T12:00:00Z",
+      "eventName": "Hot N' Code Conference",
+      "talk": "From Zero to Hero with OpenTelemetry",
+      "text": "🎙 From Zero to Hero with OpenTelemetry<br>🎥 Online",
+      "headline": "<a href='https://trooper.hotmart.com/hnc-conference-external'>Hot N' Code Conference</a>"
+    },
+    "sort": [
+      1651060800000
+    ]
+  },
+  {
+    "_index": "events",
+    "_type": "_doc",
     "_id": "4uNYIn8Buv6ZWabtbLy9",
     "_score": null,
     "_source": {
