@@ -1915,8 +1915,8 @@
     "_score": null,
     "_source": {
       "website": "https://trooper.hotmart.com/hnc-conference-external",
-      "thumbnail": "https://calendar.riferrei.com/images/hotmart_hot_and_cold_conf.png",
-      "mediaUrl": "https://calendar.riferrei.com/images/hotmart_hot_and_cold_conf.png",
+      "thumbnail": "https://calendar.riferrei.com/images/hotmart_hot_and_code_conf.png",
+      "mediaUrl": "https://calendar.riferrei.com/images/hotmart_hot_and_code_conf.png",
       "groupName": "Q2",
       "@timestamp": "2022-04-27T12:00:00Z",
       "eventName": "Hot N' Code Conference",
