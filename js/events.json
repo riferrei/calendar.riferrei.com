@@ -1891,26 +1891,6 @@
   {
     "_index": "events",
     "_type": "_doc",
-    "_id": "W8cA5H4BC_QVzu-EBGe2",
-    "_score": null,
-    "_source": {
-      "website": "https://www.cloud-native-sre.wtf/",
-      "thumbnail": "https://calendar.riferrei.com/images/wtf-is-sre.png",
-      "mediaUrl": "https://calendar.riferrei.com/images/wtf-is-sre.png",
-      "groupName": "Q2",
-      "@timestamp": "2022-04-22T12:00:00Z",
-      "eventName": "WTF is SRE 2022",
-      "talk": "Down to the Rabbit Role with the OpenTelemetry Agent",
-      "text": "🎙 Down to the Rabbit Role with the OpenTelemetry Agent<br>🎥 Online",
-      "headline": "<a href='https://www.cloud-native-sre.wtf/'>WTF is SRE 2022</a>"
-    },
-    "sort": [
-      1650628800000
-    ]
-  },
-  {
-    "_index": "events",
-    "_type": "_doc",
     "_id": "YonkPIABWqPH94ZZshV2",
     "_score": null,
     "_source": {
@@ -1926,6 +1906,26 @@
     },
     "sort": [
       1651060800000
+    ]
+  },
+  {
+    "_index": "events",
+    "_type": "_doc",
+    "_id": "W8cA5H4BC_QVzu-EBGe2",
+    "_score": null,
+    "_source": {
+      "website": "https://www.cloud-native-sre.wtf/",
+      "thumbnail": "https://calendar.riferrei.com/images/wtf-is-sre.png",
+      "mediaUrl": "https://calendar.riferrei.com/images/wtf-is-sre.png",
+      "groupName": "Q2",
+      "@timestamp": "2022-04-28T12:00:00Z",
+      "eventName": "WTF is SRE 2022",
+      "talk": "Down to the Rabbit Role with the OpenTelemetry Agent",
+      "text": "🎙 Down to the Rabbit Role with the OpenTelemetry Agent<br>🎥 Online",
+      "headline": "<a href='https://www.cloud-native-sre.wtf/'>WTF is SRE 2022</a>"
+    },
+    "sort": [
+      1651147200000
     ]
   },
   {
