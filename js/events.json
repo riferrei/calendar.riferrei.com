@@ -1992,6 +1992,27 @@
   {
     "_index": "events",
     "_type": "_doc",
+    "_id": "_efGmYABXXhDJekFY1N-",
+    "_score": null,
+    "_source": {
+      "website": "https://www.thestrangeloop.com",
+      "thumbnail": "https://calendar.riferrei.com/images/strange-loop.png",
+      "mediaUrl": "https://calendar.riferrei.com/images/strange-loop.png",
+      "groupName": "Q3",
+      "@timestamp": "2022-09-24T12:00:00Z",
+      "eventName": "Strange Loop 2022",
+      "talk": "In the land of the sizing, the one-partition Kafka topic is king",
+      "location": "St. Louis, MO, USA",
+      "text": "🎙 In the land of the sizing, the one-partition Kafka topic is king<br>✈️ <a href='https://www.google.com/maps/search/?api=1&query=St. Louis, MO, USA'>St. Louis, MO, USA</a>",
+      "headline": "<a href='https://www.thestrangeloop.com'>Strange Loop 2022</a>"
+    },
+    "sort": [
+      1664020800000
+    ]
+  },
+  {
+    "_index": "events",
+    "_type": "_doc",
     "_id": "G0B5-n8Bw_wGcxjeryeo",
     "_score": null,
     "_source": {
