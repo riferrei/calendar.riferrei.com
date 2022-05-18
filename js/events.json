@@ -1,7 +1,6 @@
 [
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "uxQNf3wBSgj4cc4GDYYD",
     "_score": null,
     "_source": {
@@ -22,7 +21,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "XLoPf3wBH4uxy4h1rpSC",
     "_score": null,
     "_source": {
@@ -43,7 +41,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "XroSf3wBH4uxy4h1K5RG",
     "_score": null,
     "_source": {
@@ -64,7 +61,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "X7oUf3wBH4uxy4h15ZSj",
     "_score": null,
     "_source": {
@@ -85,7 +81,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "YLoaf3wBH4uxy4h1EZSf",
     "_score": null,
     "_source": {
@@ -107,7 +102,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "Yroff3wBH4uxy4h1nJT4",
     "_score": null,
     "_source": {
@@ -129,7 +123,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "vRQof3wBSgj4cc4GSIbe",
     "_score": null,
     "_source": {
@@ -151,7 +144,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "ZLotf3wBH4uxy4h1opTk",
     "_score": null,
     "_source": {
@@ -173,7 +165,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "Zbovf3wBH4uxy4h1RZR5",
     "_score": null,
     "_source": {
@@ -195,7 +186,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "Zroyf3wBH4uxy4h1hZSo",
     "_score": null,
     "_source": {
@@ -217,7 +207,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "vhQ1f3wBSgj4cc4GZobQ",
     "_score": null,
     "_source": {
@@ -238,7 +227,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "vxQ4f3wBSgj4cc4GPYYS",
     "_score": null,
     "_source": {
@@ -259,7 +247,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "aLo7f3wBH4uxy4h1k5Sg",
     "_score": null,
     "_source": {
@@ -280,7 +267,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "wBQ-f3wBSgj4cc4G_YZQ",
     "_score": null,
     "_source": {
@@ -302,7 +288,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "abpBf3wBH4uxy4h1HZTO",
     "_score": null,
     "_source": {
@@ -323,7 +308,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "wRRCf3wBSgj4cc4GmIYY",
     "_score": null,
     "_source": {
@@ -344,7 +328,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "gLplgHwBH4uxy4h1qpTz",
     "_score": null,
     "_source": {
@@ -365,7 +348,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "gbpogHwBH4uxy4h1KJRD",
     "_score": null,
     "_source": {
@@ -386,7 +368,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "grprgHwBH4uxy4h1apSY",
     "_score": null,
     "_source": {
@@ -407,7 +388,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "whRtgHwBSgj4cc4Gh4YY",
     "_score": null,
     "_source": {
@@ -428,7 +408,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "wxRxgHwBSgj4cc4G0Ybn",
     "_score": null,
     "_source": {
@@ -449,7 +428,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "g7p0gHwBH4uxy4h19JT3",
     "_score": null,
     "_source": {
@@ -470,7 +448,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "xBR3gHwBSgj4cc4G7oYM",
     "_score": null,
     "_source": {
@@ -492,7 +469,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "xRR5gHwBSgj4cc4G0obd",
     "_score": null,
     "_source": {
@@ -513,7 +489,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "hbp7gHwBH4uxy4h1o5QG",
     "_score": null,
     "_source": {
@@ -534,7 +509,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "hrp-gHwBH4uxy4h1ZZQh",
     "_score": null,
     "_source": {
@@ -555,7 +529,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "iLqBgHwBH4uxy4h1hpQK",
     "_score": null,
     "_source": {
@@ -577,7 +550,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "xhSEgHwBSgj4cc4GwIZs",
     "_score": null,
     "_source": {
@@ -599,7 +571,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "xxSOgHwBSgj4cc4G-YZk",
     "_score": null,
     "_source": {
@@ -620,7 +591,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "irqTgHwBH4uxy4h1wJRO",
     "_score": null,
     "_source": {
@@ -642,7 +612,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "xx9ZK3sBWbPealB3SxLu",
     "_score": null,
     "_source": {
@@ -663,7 +632,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "dllYK3sBX8jviPbhcY_B",
     "_score": null,
     "_source": {
@@ -684,7 +652,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "xh9XK3sBWbPealB3dxLv",
     "_score": null,
     "_source": {
@@ -705,7 +672,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "xR9RK3sBWbPealB33hLJ",
     "_score": null,
     "_source": {
@@ -726,7 +692,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "dVlTK3sBX8jviPbh3Y-h",
     "_score": null,
     "_source": {
@@ -747,7 +712,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "R1mR8noBX8jviPbhmYtG",
     "_score": null,
     "_source": {
@@ -768,7 +732,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "RVmN8noBX8jviPbh_4vY",
     "_score": null,
     "_source": {
@@ -789,7 +752,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "wx-I8noBWbPealB37BI1",
     "_score": null,
     "_source": {
@@ -810,7 +772,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "Q1mF8noBX8jviPbhyYv2",
     "_score": null,
     "_source": {
@@ -831,7 +792,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "QlmC8noBX8jviPbhhosJ",
     "_score": null,
     "_source": {
@@ -852,7 +812,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "utssNHoBT5srT8xd0ZQN",
     "_score": null,
     "_source": {
@@ -872,7 +831,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "udsoNHoBT5srT8xdGZQw",
     "_score": null,
     "_source": {
@@ -892,7 +850,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "Y7MhNHoBhF7z3dwjZ3Uw",
     "_score": null,
     "_source": {
@@ -912,7 +869,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "YbMcNHoBhF7z3dwjlHW9",
     "_score": null,
     "_source": {
@@ -932,7 +888,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "YLMZNHoBhF7z3dwjO3VI",
     "_score": null,
     "_source": {
@@ -952,7 +907,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "uNsUNHoBT5srT8xdl5QD",
     "_score": null,
     "_source": {
@@ -972,7 +926,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "ttsJNHoBT5srT8xdlJQ7",
     "_score": null,
     "_source": {
@@ -992,7 +945,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "t9sRNHoBT5srT8xdoJS5",
     "_score": null,
     "_source": {
@@ -1012,7 +964,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "s9sCL3oBT5srT8xdcJTR",
     "_score": null,
     "_source": {
@@ -1032,7 +983,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "9rP9LnoBhF7z3dwjJnQ0",
     "_score": null,
     "_source": {
@@ -1052,7 +1002,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "97MGL3oBhF7z3dwjrnRi",
     "_score": null,
     "_source": {
@@ -1072,7 +1021,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "-LMKL3oBhF7z3dwjBHSq",
     "_score": null,
     "_source": {
@@ -1092,7 +1040,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "9LP4LnoBhF7z3dwjYnQ1",
     "_score": null,
     "_source": {
@@ -1112,7 +1059,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "stv1LnoBT5srT8xdEpRp",
     "_score": null,
     "_source": {
@@ -1132,7 +1078,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "sdvxLnoBT5srT8xdi5Rp",
     "_score": null,
     "_source": {
@@ -1152,7 +1097,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "sNvsLnoBT5srT8xd5JTa",
     "_score": null,
     "_source": {
@@ -1172,7 +1116,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "87PpLnoBhF7z3dwjRXR0",
     "_score": null,
     "_source": {
@@ -1192,7 +1135,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "r9vlLnoBT5srT8xdH5Q9",
     "_score": null,
     "_source": {
@@ -1212,7 +1154,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "vbOnKXoBhF7z3dwjU3TB",
     "_score": null,
     "_source": {
@@ -1232,7 +1173,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "vLOiKXoBhF7z3dwjNnRl",
     "_score": null,
     "_source": {
@@ -1252,7 +1192,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "urOcKXoBhF7z3dwjTHSt",
     "_score": null,
     "_source": {
@@ -1272,7 +1211,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "qduTKXoBT5srT8xd7ZR2",
     "_score": null,
     "_source": {
@@ -1292,7 +1230,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "ubOQKXoBhF7z3dwju3TR",
     "_score": null,
     "_source": {
@@ -1312,7 +1249,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "qNuMKXoBT5srT8xdZpQH",
     "_score": null,
     "_source": {
@@ -1332,7 +1268,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "p9uGKXoBT5srT8xd0JTE",
     "_score": null,
     "_source": {
@@ -1352,7 +1287,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "ptubJnoBT5srT8xdWJSv",
     "_score": null,
     "_source": {
@@ -1372,7 +1306,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "mrOUJnoBhF7z3dwjVnSL",
     "_score": null,
     "_source": {
@@ -1392,7 +1325,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "pduSJnoBT5srT8xdnpRe",
     "_score": null,
     "_source": {
@@ -1412,7 +1344,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "mbORJnoBhF7z3dwjZXT0",
     "_score": null,
     "_source": {
@@ -1432,7 +1363,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "pNuPJnoBT5srT8xdw5Ry",
     "_score": null,
     "_source": {
@@ -1453,7 +1383,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "o9uNJnoBT5srT8xdi5Tr",
     "_score": null,
     "_source": {
@@ -1474,7 +1403,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "mLOMJnoBhF7z3dwjNnTb",
     "_score": null,
     "_source": {
@@ -1494,7 +1422,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "otuKJnoBT5srT8xdwJRv",
     "_score": null,
     "_source": {
@@ -1515,7 +1442,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "oduHJnoBT5srT8xdXZQV",
     "_score": null,
     "_source": {
@@ -1536,7 +1462,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "lbNYJnoBhF7z3dwjlHQE",
     "_score": null,
     "_source": {
@@ -1557,7 +1482,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "hllqEXsBX8jviPbh242e",
     "_score": null,
     "_source": {
@@ -1578,7 +1502,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "rtuqKnoBT5srT8xddZSr",
     "_score": null,
     "_source": {
@@ -1598,7 +1521,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "ah8OdXsBUCMKpmESDbIP",
     "_score": null,
     "_source": {
@@ -1618,7 +1540,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "aB_sO3sBUCMKpmESTrIJ",
     "_score": null,
     "_source": {
@@ -1638,7 +1559,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "qVk-E3sBX8jviPbhTo3L",
     "_score": null,
     "_source": {
@@ -1659,7 +1579,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "Th1GxHoBck0mfDAxFkBE",
     "_score": null,
     "_source": {
@@ -1680,7 +1599,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "elwlT3sBiCQ1ZX5zfyQ9",
     "_score": null,
     "_source": {
@@ -1701,7 +1619,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "xB8yE3sBWbPealB3jxLf",
     "_score": null,
     "_source": {
@@ -1722,7 +1639,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "LYXNr3oB110si52jlLfi",
     "_score": null,
     "_source": {
@@ -1744,7 +1660,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "5zp4-XsB1yHbDWjDKjNy",
     "_score": null,
     "_source": {
@@ -1765,7 +1680,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "5jpx-XsB1yHbDWjDTjPP",
     "_score": null,
     "_source": {
@@ -1787,7 +1701,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "Y41QLn0BPFu3KEGJFfPm",
     "_score": null,
     "_source": {
@@ -1808,7 +1721,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "32wHjH0ByN3fQ5D9acIY",
     "_score": null,
     "_source": {
@@ -1828,7 +1740,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "pWz9Un0ByN3fQ5D9gL6-",
     "_score": null,
     "_source": {
@@ -1849,7 +1760,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "Njv4d34B-pa8UFP-GpRY",
     "_score": null,
     "_source": {
@@ -1869,7 +1779,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "Xdr2d34BxnnP5FibKauW",
     "_score": null,
     "_source": {
@@ -1890,7 +1799,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "YonkPIABWqPH94ZZshV2",
     "_score": null,
     "_source": {
@@ -1910,7 +1818,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "W8cA5H4BC_QVzu-EBGe2",
     "_score": null,
     "_source": {
@@ -1930,7 +1837,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "4uNYIn8Buv6ZWabtbLy9",
     "_score": null,
     "_source": {
@@ -1950,7 +1856,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "5OOuTH8Buv6ZWabt6rx_",
     "_score": null,
     "_source": {
@@ -1971,7 +1876,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "DfKRKoABsCpMpjamp0tM",
     "_score": null,
     "_source": {
@@ -1991,7 +1895,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "_efGmYABXXhDJekFY1N-",
     "_score": null,
     "_source": {
@@ -2012,7 +1915,6 @@
   },
   {
     "_index": "events",
-    "_type": "_doc",
     "_id": "G0B5-n8Bw_wGcxjeryeo",
     "_score": null,
     "_source": {
