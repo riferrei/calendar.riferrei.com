@@ -1862,12 +1862,13 @@
       "website": "https://opensourcenorth.com/",
       "thumbnail": "https://calendar.riferrei.com/images/open-source-north.png",
       "mediaUrl": "https://calendar.riferrei.com/images/open-source-north.png",
+      "resources": "https://talks.riferrei.com/OmZwut",
       "groupName": "Q2",
       "@timestamp": "2022-05-24T12:00:00Z",
       "eventName": "Open Source North 2022",
-      "talk": "Distributed Tracing: The Good, The Bad, and The Ugly",
+      "talk": "<a href='https://talks.riferrei.com/OmZwut'>Distributed Tracing: The Good, The Bad, and The Ugly</a>",
       "location": "St. Paul, MN, USA",
-      "text": "🎙 Distributed Tracing: The Good, The Bad, and The Ugly<br>✈️ <a href='https://www.google.com/maps/search/?api=1&query=St. Paul, MN, USA'>St. Paul, MN, USA</a>",
+      "text": "🎙 <a href='https://talks.riferrei.com/OmZwut'>Distributed Tracing: The Good, The Bad, and The Ugly</a><br>✈️ <a href='https://www.google.com/maps/search/?api=1&query=St. Paul, MN, USA'>St. Paul, MN, USA</a>",
       "headline": "<a href='https://opensourcenorth.com/'>Open Source North 2022</a>"
     },
     "sort": [
