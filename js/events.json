@@ -1913,24 +1913,5 @@
     "sort": [
       1664020800000
     ]
-  },
-  {
-    "_index": "events",
-    "_id": "G0B5-n8Bw_wGcxjeryeo",
-    "_score": null,
-    "_source": {
-      "website": "https://bigdataconference.eu/",
-      "thumbnail": "https://calendar.riferrei.com/images/bigdata-conf-eu.jpeg",
-      "mediaUrl": "https://calendar.riferrei.com/images/bigdata-conf-eu.jpeg",
-      "groupName": "Q4",
-      "@timestamp": "2022-11-21T12:00:00Z",
-      "eventName": "Big Data Conference EU 2022",
-      "talk": "Building Debugging-Enabled Data Pipelines",
-      "text": "🎙 Building Debugging-Enabled Data Pipelines<br>🎥 Online",
-      "headline": "<a href='https://bigdataconference.eu/'>Big Data Conference EU 2022</a>"
-    },
-    "sort": [
-      1669032000000
-    ]
   }
 ]
