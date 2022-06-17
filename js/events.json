@@ -1897,6 +1897,26 @@
   },
   {
     "_index": "events",
+    "_id": "fX8mcoEB-k5J0ofKxPyM",
+    "_score": null,
+    "_source": {
+      "website": "https://awsdevrelcon2022.splashthat.com",
+      "thumbnail": "https://calendar.riferrei.com/images/aws_devrelcon_2022.png",
+      "mediaUrl": "https://calendar.riferrei.com/images/aws_devrelcon_2022.png",
+      "groupName": "Q3",
+      "@timestamp": "2022-07-19T12:00:00Z",
+      "eventName": "AWS DevRelCon 2022",
+      "talk": "No approved talks. Joining the conference as an attendee",
+      "location": "Seattle, WA, USA",
+      "text": "🎙 No approved talks. Joining the conference as an attendee<br>✈️ <a href='https://www.google.com/maps/search/?api=1&query=Seattle, WA, USA'>Seattle, WA, USA</a>",
+      "headline": "<a href='https://awsdevrelcon2022.splashthat.com'>AWS DevRelCon 2022</a>"
+    },
+    "sort": [
+      1658232000000
+    ]
+  },
+  {
+    "_index": "events",
     "_id": "_efGmYABXXhDJekFY1N-",
     "_score": null,
     "_source": {
