@@ -1934,5 +1934,25 @@
     "sort": [
       1664020800000
     ]
+  },
+  {
+    "_index": "events",
+    "_id": "LWPthoEB7wTJ0oFKcBZ9",
+    "_score": null,
+    "_source": {
+      "website": "https://reinvent.awsevents.com/",
+      "thumbnail": "https://calendar.riferrei.com/images/aws-reinvent-2022.jpeg",
+      "mediaUrl": "https://calendar.riferrei.com/images/aws-reinvent-2022.jpeg",
+      "groupName": "Q4",
+      "@timestamp": "2022-11-28T12:00:00Z",
+      "eventName": "AWS re:Invent 2022",
+      "talk": "Fine, I'll do it myself — Building my own Kafka connectors",
+      "location": "Las Vegas, NV, USA",
+      "text": "🎙 Fine, I'll do it myself — Building my own Kafka connectors<br>✈️ <a href='https://www.google.com/maps/search/?api=1&query=Las Vegas, NV, USA'>Las Vegas, NV, USA</a>",
+      "headline": "<a href='https://reinvent.awsevents.com/'>AWS re:Invent 2022</a>"
+    },
+    "sort": [
+      1669636800000
+    ]
   }
 ]
