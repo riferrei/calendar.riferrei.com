@@ -1917,6 +1917,26 @@
   },
   {
     "_index": "events",
+    "_id": "tVv7pYEB3Jj8hvtQPR7x",
+    "_score": null,
+    "_source": {
+      "website": "https://pulsar-summit.org/event/san-francisco-2022",
+      "thumbnail": "https://calendar.riferrei.com/images/pulsar-summit.png",
+      "mediaUrl": "https://calendar.riferrei.com/images/pulsar-summit.png",
+      "groupName": "Q3",
+      "@timestamp": "2022-08-18T12:00:00Z",
+      "eventName": "Pulsar Summit San Francisco 2022",
+      "talk": "Is using KoP (Kafka-On-Pulsar) a good idea?",
+      "location": "San Francisco, CA, USA",
+      "text": "🎙 Is using KoP (Kafka-On-Pulsar) a good idea?<br>✈️ <a href='https://www.google.com/maps/search/?api=1&query=San Francisco, CA, USA'>San Francisco, CA, USA</a>",
+      "headline": "<a href='https://pulsar-summit.org/event/san-francisco-2022'>Pulsar Summit San Francisco 2022</a>"
+    },
+    "sort": [
+      1660824000000
+    ]
+  },
+  {
+    "_index": "events",
     "_id": "_efGmYABXXhDJekFY1N-",
     "_score": null,
     "_source": {
