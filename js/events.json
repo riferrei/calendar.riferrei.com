@@ -1957,6 +1957,26 @@
   },
   {
     "_index": "events",
+    "_id": "1nQXPYIBXOmwKHu8ARla",
+    "_score": null,
+    "_source": {
+      "website": "https://2022.currentevent.io/",
+      "thumbnail": "https://calendar.riferrei.com/images/current-2022.png",
+      "mediaUrl": "https://calendar.riferrei.com/images/current-2022.png",
+      "groupName": "Q4",
+      "@timestamp": "2022-10-04T12:00:00Z",
+      "eventName": "Current 2022",
+      "talk": "When Kafka is the source of truth; schemas become your source of headaches",
+      "location": "Austin, TX, USA",
+      "text": "🎙 When Kafka is the source of truth; schemas become your source of headaches<br>✈️ <a href='https://www.google.com/maps/search/?api=1&query=Austin, TX, USA'>Austin, TX, USA</a>",
+      "headline": "<a href='https://2022.currentevent.io/'>Current 2022</a>"
+    },
+    "sort": [
+      1664884800000
+    ]
+  },
+  {
+    "_index": "events",
     "_id": "LWPthoEB7wTJ0oFKcBZ9",
     "_score": null,
     "_source": {
