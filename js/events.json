@@ -454,13 +454,13 @@
       "website": "https://www.kafka-summit.org/kafka-summit-san-francisco-2019",
       "thumbnail": "https://calendar.riferrei.com/images/kafka-summit.png",
       "mediaUrl": "https://calendar.riferrei.com/images/kafka-summit.png",
-      "resources": "https://www.confluent.io/kafka-summit-san-francisco-2019/being-an-apache-kafka-developer-hero-in-the-world-of-cloud/",
+      "resources": "",
       "groupName": "Q4",
       "@timestamp": "2019-10-01T12:00:00Z",
       "eventName": "Kafka Summit 2019, San Francisco",
-      "talk": "<a href='https://www.confluent.io/kafka-summit-san-francisco-2019/being-an-apache-kafka-developer-hero-in-the-world-of-cloud/'><a href='https://www.confluent.io/kafka-summit-san-francisco-2019/being-an-apache-kafka-developer-hero-in-the-world-of-cloud/'><a href='https://www.confluent.io/kafka-summit-san-francisco-2019/being-an-apache-kafka-developer-hero-in-the-world-of-cloud/'><a href='https://www.confluent.io/kafka-summit-san-francisco-2019/being-an-apache-kafka-developer-hero-in-the-world-of-cloud/'>Being an Apache Kafka Developer Hero in the World of Cloud</a></a></a></a>",
+      "talk": "<a href=''><a href='https://talks.riferrei.com/LgUiHy'><a href='https://www.confluent.io/kafka-summit-san-francisco-2019/being-an-apache-kafka-developer-hero-in-the-world-of-cloud/'><a href='https://www.confluent.io/kafka-summit-san-francisco-2019/being-an-apache-kafka-developer-hero-in-the-world-of-cloud/'><a href='https://www.confluent.io/kafka-summit-san-francisco-2019/being-an-apache-kafka-developer-hero-in-the-world-of-cloud/'><a href='https://www.confluent.io/kafka-summit-san-francisco-2019/being-an-apache-kafka-developer-hero-in-the-world-of-cloud/'>Being an Apache Kafka Developer Hero in the World of Cloud</a></a></a></a></a></a>",
       "location": "San Francisco, CA, USA",
-      "text": "🎙 <a href='https://www.confluent.io/kafka-summit-san-francisco-2019/being-an-apache-kafka-developer-hero-in-the-world-of-cloud/'><a href='https://www.confluent.io/kafka-summit-san-francisco-2019/being-an-apache-kafka-developer-hero-in-the-world-of-cloud/'><a href='https://www.confluent.io/kafka-summit-san-francisco-2019/being-an-apache-kafka-developer-hero-in-the-world-of-cloud/'><a href='https://www.confluent.io/kafka-summit-san-francisco-2019/being-an-apache-kafka-developer-hero-in-the-world-of-cloud/'>Being an Apache Kafka Developer Hero in the World of Cloud</a></a></a></a><br>✈️ <a href='https://www.google.com/maps/search/?api=1&query=San Francisco, CA, USA'>San Francisco, CA, USA</a>",
+      "text": "🎙 <a href=''><a href='https://talks.riferrei.com/LgUiHy'><a href='https://www.confluent.io/kafka-summit-san-francisco-2019/being-an-apache-kafka-developer-hero-in-the-world-of-cloud/'><a href='https://www.confluent.io/kafka-summit-san-francisco-2019/being-an-apache-kafka-developer-hero-in-the-world-of-cloud/'><a href='https://www.confluent.io/kafka-summit-san-francisco-2019/being-an-apache-kafka-developer-hero-in-the-world-of-cloud/'><a href='https://www.confluent.io/kafka-summit-san-francisco-2019/being-an-apache-kafka-developer-hero-in-the-world-of-cloud/'>Being an Apache Kafka Developer Hero in the World of Cloud</a></a></a></a></a></a><br>✈️ <a href='https://www.google.com/maps/search/?api=1&query=San Francisco, CA, USA'>San Francisco, CA, USA</a>",
       "headline": "<a href='https://www.kafka-summit.org/kafka-summit-san-francisco-2019'>Kafka Summit 2019, San Francisco</a>"
     },
     "sort": [
@@ -1923,12 +1923,13 @@
       "website": "https://pulsar-summit.org/event/san-francisco-2022",
       "thumbnail": "https://calendar.riferrei.com/images/pulsar-summit.png",
       "mediaUrl": "https://calendar.riferrei.com/images/pulsar-summit.png",
+      "resources": "https://talks.riferrei.com/LgUiHy",
       "groupName": "Q3",
       "@timestamp": "2022-08-18T12:00:00Z",
       "eventName": "Pulsar Summit SFO 2022",
-      "talk": "Is using KoP (Kafka-On-Pulsar) a good idea?",
+      "talk": "<a href='https://talks.riferrei.com/LgUiHy'>Is using KoP (Kafka-On-Pulsar) a good idea?</a>",
       "location": "San Francisco, CA, USA",
-      "text": "🎙 Is using KoP (Kafka-On-Pulsar) a good idea?<br>✈️ <a href='https://www.google.com/maps/search/?api=1&query=San Francisco, CA, USA'>San Francisco, CA, USA</a>",
+      "text": "🎙 <a href='https://talks.riferrei.com/LgUiHy'>Is using KoP (Kafka-On-Pulsar) a good idea?</a><br>✈️ <a href='https://www.google.com/maps/search/?api=1&query=San Francisco, CA, USA'>San Francisco, CA, USA</a>",
       "headline": "<a href='https://pulsar-summit.org/event/san-francisco-2022'>Pulsar Summit SFO 2022</a>"
     },
     "sort": [
