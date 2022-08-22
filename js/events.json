@@ -1958,6 +1958,26 @@
   },
   {
     "_index": "events",
+    "_id": "h96TxoIBcssO8SsR5RnW",
+    "_score": null,
+    "_source": {
+      "website": "https://aws.amazon.com/developer/learning/buildon-aws-live",
+      "thumbnail": "https://calendar.riferrei.com/images/buildon-aws-live.png",
+      "mediaUrl": "https://calendar.riferrei.com/images/buildon-aws-live.png",
+      "groupName": "Q3",
+      "@timestamp": "2022-09-29T12:00:00Z",
+      "eventName": "Build On Observability Day",
+      "talk": "Working as event host along with Jacquie Grindrod",
+      "location": "Portland, OR, USA",
+      "text": "🎙 Working as event host along with Jacquie Grindrod<br>✈️ <a href='https://www.google.com/maps/search/?api=1&query=Portland, OR, USA'>Portland, OR, USA</a>",
+      "headline": "<a href='https://aws.amazon.com/developer/learning/buildon-aws-live'>Build On Observability Day</a>"
+    },
+    "sort": [
+      1664452800000
+    ]
+  },
+  {
+    "_index": "events",
     "_id": "1nQXPYIBXOmwKHu8ARla",
     "_score": null,
     "_source": {
