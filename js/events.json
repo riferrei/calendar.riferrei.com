@@ -1944,12 +1944,13 @@
       "website": "https://www.thestrangeloop.com",
       "thumbnail": "https://calendar.riferrei.com/images/strange-loop.png",
       "mediaUrl": "https://calendar.riferrei.com/images/strange-loop.png",
+      "resources": "https://talks.riferrei.com/JfThKg",
       "groupName": "Q3",
       "@timestamp": "2022-09-24T12:00:00Z",
       "eventName": "Strange Loop 2022",
-      "talk": "In the land of the sizing, the one-partition Kafka topic is king",
+      "talk": "<a href='https://talks.riferrei.com/JfThKg'>In the land of the sizing, the one-partition Kafka topic is king</a>",
       "location": "St. Louis, MO, USA",
-      "text": "🎙 In the land of the sizing, the one-partition Kafka topic is king<br>✈️ <a href='https://www.google.com/maps/search/?api=1&query=St. Louis, MO, USA'>St. Louis, MO, USA</a>",
+      "text": "🎙 <a href='https://talks.riferrei.com/JfThKg'>In the land of the sizing, the one-partition Kafka topic is king</a><br>✈️ <a href='https://www.google.com/maps/search/?api=1&query=St. Louis, MO, USA'>St. Louis, MO, USA</a>",
       "headline": "<a href='https://www.thestrangeloop.com'>Strange Loop 2022</a>"
     },
     "sort": [
@@ -2007,9 +2008,9 @@
       "groupName": "Q4",
       "@timestamp": "2022-11-28T12:00:00Z",
       "eventName": "AWS re:Invent 2022",
-      "talk": "Fine, I'll do it myself — Building my own Kafka connectors",
+      "talk": "BOA301: Building your own Apache Kafka connectors",
       "location": "Las Vegas, NV, USA",
-      "text": "🎙 Fine, I'll do it myself — Building my own Kafka connectors<br>✈️ <a href='https://www.google.com/maps/search/?api=1&query=Las Vegas, NV, USA'>Las Vegas, NV, USA</a>",
+      "text": "🎙 BOA301: Building your own Apache Kafka connectors<br>✈️ <a href='https://www.google.com/maps/search/?api=1&query=Las Vegas, NV, USA'>Las Vegas, NV, USA</a>",
       "headline": "<a href='https://reinvent.awsevents.com/'>AWS re:Invent 2022</a>"
     },
     "sort": [
