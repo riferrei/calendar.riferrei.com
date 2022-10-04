@@ -1985,16 +1985,17 @@
       "website": "https://2022.currentevent.io/",
       "thumbnail": "https://calendar.riferrei.com/images/current-2022.png",
       "mediaUrl": "https://calendar.riferrei.com/images/current-2022.png",
+      "resources": "https://talks.riferrei.com/https://talks.riferrei.com/WnA2s1",
       "groupName": "Q4",
-      "@timestamp": "2022-10-04T12:00:00Z",
+      "@timestamp": "2022-10-05T12:00:00Z",
       "eventName": "Current 2022",
-      "talk": "When Kafka is the source of truth; schemas become your source of headaches",
+      "talk": "<a href='https://talks.riferrei.com/https://talks.riferrei.com/WnA2s1'><a href='https://talks.riferrei.com/https://talks.riferrei.com/WnA2s1'>When Kafka is the source of truth; schemas become your source of headaches</a></a>",
       "location": "Austin, TX, USA",
-      "text": "🎙 When Kafka is the source of truth; schemas become your source of headaches<br>✈️ <a href='https://www.google.com/maps/search/?api=1&query=Austin, TX, USA'>Austin, TX, USA</a>",
+      "text": "🎙 <a href='https://talks.riferrei.com/https://talks.riferrei.com/WnA2s1'><a href='https://talks.riferrei.com/https://talks.riferrei.com/WnA2s1'>When Kafka is the source of truth; schemas become your source of headaches</a></a><br>✈️ <a href='https://www.google.com/maps/search/?api=1&query=Austin, TX, USA'>Austin, TX, USA</a>",
       "headline": "<a href='https://2022.currentevent.io/'>Current 2022</a>"
     },
     "sort": [
-      1664884800000
+      1664971200000
     ]
   },
   {
