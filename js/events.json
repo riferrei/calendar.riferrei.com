@@ -2006,16 +2006,14 @@
       "website": "https://reinvent.awsevents.com/",
       "thumbnail": "https://calendar.riferrei.com/images/aws-reinvent-2022.jpeg",
       "mediaUrl": "https://calendar.riferrei.com/images/aws-reinvent-2022.jpeg",
+      "resources": "https://portal.awsevents.com/events/reinvent2022/dashboard/event/sessions/boa301",
       "groupName": "Q4",
       "@timestamp": "2022-11-28T12:00:00Z",
       "eventName": "AWS re:Invent 2022",
-      "talk": "BOA301: Building your own Apache Kafka connectors",
+      "talk": "<a href='https://portal.awsevents.com/events/reinvent2022/dashboard/event/sessions/boa301'>BOA301: Building your own Apache Kafka connectors</a>",
       "location": "Las Vegas, NV, USA",
-      "text": "🎙 BOA301: Building your own Apache Kafka connectors<br>✈️ <a href='https://www.google.com/maps/search/?api=1&query=Las Vegas, NV, USA'>Las Vegas, NV, USA</a>",
+      "text": "🎙 <a href='https://portal.awsevents.com/events/reinvent2022/dashboard/event/sessions/boa301'>BOA301: Building your own Apache Kafka connectors</a><br>✈️ <a href='https://www.google.com/maps/search/?api=1&query=Las Vegas, NV, USA'>Las Vegas, NV, USA</a>",
       "headline": "<a href='https://reinvent.awsevents.com/'>AWS re:Invent 2022</a>"
-    },
-    "sort": [
-      1669636800000
-    ]
+    }
   }
 ]
