@@ -1989,9 +1989,9 @@
       "groupName": "Q4",
       "@timestamp": "2022-10-05T12:00:00Z",
       "eventName": "Current 2022",
-      "talk": "<a href='https://talks.riferrei.com/WnA2s1'>When Kafka is the source of truth; schemas become your source of headaches</a>",
+      "talk": "<a href='https://talks.riferrei.com/WnA2s1'><a href='https://talks.riferrei.com/https://talks.riferrei.com/WnA2s1'><a href='https://talks.riferrei.com/https://talks.riferrei.com/WnA2s1'>When Kafka is the source of truth; schemas become your source of headaches</a></a></a>",
       "location": "Austin, TX, USA",
-      "text": "🎙 <a href='https://talks.riferrei.com/WnA2s1'>When Kafka is the source of truth; schemas become your source of headaches</a><br>✈️ <a href='https://www.google.com/maps/search/?api=1&query=Austin, TX, USA'>Austin, TX, USA</a>",
+      "text": "🎙 <a href='https://talks.riferrei.com/WnA2s1'><a href='https://talks.riferrei.com/https://talks.riferrei.com/WnA2s1'><a href='https://talks.riferrei.com/https://talks.riferrei.com/WnA2s1'>When Kafka is the source of truth; schemas become your source of headaches</a></a></a><br>✈️ <a href='https://www.google.com/maps/search/?api=1&query=Austin, TX, USA'>Austin, TX, USA</a>",
       "headline": "<a href='https://2022.currentevent.io/'>Current 2022</a>"
     },
     "sort": [
@@ -2014,6 +2014,29 @@
       "location": "Las Vegas, NV, USA",
       "text": "🎙 <a href='https://portal.awsevents.com/events/reinvent2022/dashboard/event/sessions/boa301'>BOA301: Building your own Apache Kafka connectors</a><br>✈️ <a href='https://www.google.com/maps/search/?api=1&query=Las Vegas, NV, USA'>Las Vegas, NV, USA</a>",
       "headline": "<a href='https://reinvent.awsevents.com/'>AWS re:Invent 2022</a>"
-    }
+    },
+    "sort": [
+      1669636800000
+    ]
+  },
+  {
+    "_index": "events",
+    "_id": "KD8iVIUBBOFyCs6gwvR2",
+    "_score": null,
+    "_source": {
+      "website": "https://devnexus.com/",
+      "thumbnail": "https://calendar.riferrei.com/images/devnexus.png",
+      "mediaUrl": "https://calendar.riferrei.com/images/devnexus.png",
+      "groupName": "Q2",
+      "@timestamp": "2023-04-06T12:00:00Z",
+      "eventName": "Devnexus 2023",
+      "talk": "The Right Number of Partitions for a Kafka Topic",
+      "location": "Atlanta, GA, USA",
+      "text": "🎙 The Right Number of Partitions for a Kafka Topic<br>✈️ <a href='https://www.google.com/maps/search/?api=1&query=Atlanta, GA, USA'>Atlanta, GA, USA</a>",
+      "headline": "<a href='https://devnexus.com/'>Devnexus 2023</a>"
+    },
+    "sort": [
+      1680782400000
+    ]
   }
 ]
