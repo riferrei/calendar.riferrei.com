@@ -2027,12 +2027,13 @@
       "website": "https://devnexus.com/",
       "thumbnail": "https://calendar.riferrei.com/images/devnexus.png",
       "mediaUrl": "https://calendar.riferrei.com/images/devnexus.png",
+      "resources": "https://talks.riferrei.com/qX2fay",
       "groupName": "Q2",
       "@timestamp": "2023-04-05T12:00:00Z",
       "eventName": "Devnexus 2023",
-      "talk": "The Right Number of Partitions for a Kafka Topic",
+      "talk": "<a href='https://talks.riferrei.com/qX2fay'>The Right Number of Partitions for a Kafka Topic</a>",
       "location": "Atlanta, GA, USA",
-      "text": "🎙 The Right Number of Partitions for a Kafka Topic<br>✈️ <a href='https://www.google.com/maps/search/?api=1&query=Atlanta, GA, USA'>Atlanta, GA, USA</a>",
+      "text": "🎙 <a href='https://talks.riferrei.com/qX2fay'>The Right Number of Partitions for a Kafka Topic</a><br>✈️ <a href='https://www.google.com/maps/search/?api=1&query=Atlanta, GA, USA'>Atlanta, GA, USA</a>",
       "headline": "<a href='https://devnexus.com/'>Devnexus 2023</a>"
     },
     "sort": [
