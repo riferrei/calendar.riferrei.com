@@ -2039,5 +2039,25 @@
     "sort": [
       1680696000000
     ]
+  },
+  {
+    "_index": "events",
+    "_id": "-UmS24kBx80VvCgglTMw",
+    "_score": null,
+    "_source": {
+      "website": "https://reinvent.awsevents.com/",
+      "thumbnail": "https://calendar.riferrei.com/images/aws-reinvent-generic.jpeg",
+      "mediaUrl": "https://calendar.riferrei.com/images/aws-reinvent-generic.jpeg",
+      "groupName": "Q4",
+      "@timestamp": "2023-11-28T12:00:00Z",
+      "eventName": "AWS re:Invent 2023",
+      "talk": "Supercharging Alexa with Amazon Bedrock Foundation Models",
+      "location": "Las Vegas, NV, USA",
+      "text": "🎙 Supercharging Alexa with Amazon Bedrock Foundation Models<br>✈️ <a href='https://www.google.com/maps/search/?api=1&query=Las Vegas, NV, USA'>Las Vegas, NV, USA</a>",
+      "headline": "<a href='https://reinvent.awsevents.com/'>AWS re:Invent 2023</a>"
+    },
+    "sort": [
+      1701172800000
+    ]
   }
 ]
