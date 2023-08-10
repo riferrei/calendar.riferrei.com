@@ -2042,6 +2042,25 @@
   },
   {
     "_index": "events",
+    "_id": "RFwi4IkBJ3q_xuE5XdFJ",
+    "_score": null,
+    "_source": {
+      "website": "https://www.youtube.com/watch?v=UW-w_N1lGKc",
+      "thumbnail": "https://calendar.riferrei.com/images/atomicjar.jpeg",
+      "mediaUrl": "https://calendar.riferrei.com/images/atomicjar.jpeg",
+      "groupName": "Q3",
+      "@timestamp": "2023-07-25T12:00:00Z",
+      "eventName": "AtomicJar Livestreams",
+      "talk": "Testing Terraform Providers using TestContainers for Go",
+      "text": "🎙 Testing Terraform Providers using TestContainers for Go<br>🎥 Online",
+      "headline": "<a href='https://www.youtube.com/watch?v=UW-w_N1lGKc'>AtomicJar Livestreams</a>"
+    },
+    "sort": [
+      1690286400000
+    ]
+  },
+  {
+    "_index": "events",
     "_id": "-UmS24kBx80VvCgglTMw",
     "_score": null,
     "_source": {
