@@ -2087,12 +2087,13 @@
       "website": "https://devnexus.com",
       "thumbnail": "https://calendar.riferrei.com/images/devnexus.png",
       "mediaUrl": "https://calendar.riferrei.com/images/devnexus.png",
+      "resources": "https://devnexus.com/presentations/work-smarter-not-harder-with-your-ai-coding-companion",
       "groupName": "Q2",
       "@timestamp": "2024-04-10T12:00:00Z",
       "eventName": "Devnexus 2024",
       "location": "Atlanta, GA",
-      "talk": "Work Smarter, Not Harder with your AI Coding Companion",
-      "text": "🎙 Work Smarter, Not Harder with your AI Coding Companion<br>✈️ <a href='https://www.google.com/maps/search/?api=1&query=Atlanta, GA'>Atlanta, GA</a>",
+      "talk": "<a href='https://devnexus.com/presentations/work-smarter-not-harder-with-your-ai-coding-companion'>Work Smarter, Not Harder with your AI Coding Companion</a>",
+      "text": "🎙 <a href='https://devnexus.com/presentations/work-smarter-not-harder-with-your-ai-coding-companion'>Work Smarter, Not Harder with your AI Coding Companion</a><br>✈️ <a href='https://www.google.com/maps/search/?api=1&query=Atlanta, GA'>Atlanta, GA</a>",
       "headline": "<a href='https://devnexus.com'>Devnexus 2024</a>"
     },
     "sort": [
