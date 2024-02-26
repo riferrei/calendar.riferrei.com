@@ -31,7 +31,7 @@ cat ${PWD}/dumps/events.json | jq -s > ${PWD}/js/events.json
 ####################################################################################
 
 HOST="calendar.riferrei.com"
-USER="riferrei"
+USER="riferrei@$HOST"
 
 ftp -p -inv $HOST <<EOF
 user $USER
