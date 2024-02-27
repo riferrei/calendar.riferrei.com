@@ -30,8 +30,8 @@ cat ${PWD}/dumps/events.json | jq -s > ${PWD}/js/events.json
 ######################### Upload the files to the website ##########################
 ####################################################################################
 
-HOST="calendar.riferrei.com"
-USER="riferrei@$HOST"
+HOST="ftp.riferrei.com"
+USER="riferrei"
 
 ftp -p -inv $HOST <<EOF
 user $USER
