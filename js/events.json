@@ -2091,9 +2091,9 @@
       "groupName": "Q2",
       "@timestamp": "2024-04-11T12:00:00Z",
       "eventName": "Devnexus 2024",
+      "talk": "<a href='https://devnexus.com/presentations/work-smarter-not-harder-with-your-ai-coding-companion'>Work Smarter, Not Harder with your AI Coding Companion</a>",
       "location": "Atlanta, GA",
-      "talk": "<a href='https://devnexus.com/presentations/work-smarter-not-harder-with-your-ai-coding-companion'></a>",
-      "text": "🎙 <a href='https://devnexus.com/presentations/work-smarter-not-harder-with-your-ai-coding-companion'></a><br>✈️ <a href='https://www.google.com/maps/search/?api=1&query=Atlanta, GA'>Atlanta, GA</a>",
+      "text": "🎙 <a href='https://devnexus.com/presentations/work-smarter-not-harder-with-your-ai-coding-companion'>Work Smarter, Not Harder with your AI Coding Companion</a><br>✈️ <a href='https://www.google.com/maps/search/?api=1&query=Atlanta, GA'>Atlanta, GA</a>",
       "headline": "<a href='https://devnexus.com'>Devnexus 2024</a>"
     },
     "sort": [
