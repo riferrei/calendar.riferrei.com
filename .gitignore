@@ -3,3 +3,7 @@ data
 js/content.json
 js/content-code.js
 index-code.html
+modules.xml
+vcs.xml
+.idea
+
