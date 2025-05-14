@@ -2098,5 +2098,25 @@
     "sort": [
       1748433600000
     ]
+  },
+  {
+    "_index": "events",
+    "_id": "I_kH0JYBZhrqYofk4lYB",
+    "_score": null,
+    "_source": {
+      "website": "https://devsummit.infoq.com/conference/boston2025",
+      "thumbnail": "https://calendar.riferrei.com/images/infoq-devsummit.jpg",
+      "mediaUrl": "https://calendar.riferrei.com/images/infoq-devsummit.jpg",
+      "groupName": "Q2",
+      "@timestamp": "2025-06-09T12:00:00Z",
+      "eventName": "InfoQ Dev Summit Boston 2025",
+      "talk": "Vector Sync Patterns: Keeping AI Features Fresh When Your Data Changes",
+      "location": "Boston, MA, USA",
+      "text": "🎙 Vector Sync Patterns: Keeping AI Features Fresh When Your Data Changes<br>✈️ <a href='https://www.google.com/maps/search/?api=1&query=Boston, MA, USA'>Boston, MA, USA</a>",
+      "headline": "<a href='https://devsummit.infoq.com/conference/boston2025'>InfoQ Dev Summit Boston 2025</a>"
+    },
+    "sort": [
+      1749470400000
+    ]
   }
 ]
