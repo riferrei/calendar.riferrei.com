@@ -2140,5 +2140,25 @@
     "sort": [
       1749470400000
     ]
+  },
+  {
+    "_index": "events",
+    "_id": "lBDdK5cB8dX6Bya1POzO",
+    "_score": null,
+    "_source": {
+      "website": "https://2025.allthingsopen.org/",
+      "thumbnail": "https://calendar.riferrei.com/images/ato-2025.jpg",
+      "mediaUrl": "https://calendar.riferrei.com/images/ato-2025.jpg",
+      "groupName": "Q4",
+      "@timestamp": "2025-10-13T12:00:00Z",
+      "eventName": "All Things Open 2025",
+      "talk": "To Vector, or not to Vector, that is the question",
+      "location": "Raleigh, NC, USA",
+      "text": "🎙 To Vector, or not to Vector, that is the question<br>✈️ <a href='https://www.google.com/maps/search/?api=1&query=Raleigh, NC, USA'>Raleigh, NC, USA</a>",
+      "headline": "<a href='https://2025.allthingsopen.org/'>All Things Open 2025</a>"
+    },
+    "sort": [
+      1760356800000
+    ]
   }
 ]
