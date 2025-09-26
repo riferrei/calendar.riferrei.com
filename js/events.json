@@ -2201,5 +2201,25 @@
     "sort": [
       1760356800000
     ]
+  },
+  {
+    "_index": "events",
+    "_id": "wwWWhpkB2SsMfcKtv7Fb",
+    "_score": null,
+    "_source": {
+      "website": "https://reinvent.awsevents.com/",
+      "thumbnail": "https://calendar.riferrei.com/images/aws-reinvent-generic.jpeg",
+      "mediaUrl": "https://calendar.riferrei.com/images/aws-reinvent-generic.jpeg",
+      "groupName": "Q4",
+      "@timestamp": "2025-12-01T12:00:00Z",
+      "eventName": "AWS re:Invent 2025",
+      "talk": "Mastering Patterns to Build an AI Memory Layer",
+      "location": "Las Vegas, NV, USA",
+      "text": "🎙 Mastering Patterns to Build an AI Memory Layer<br>✈️ <a href='https://www.google.com/maps/search/?api=1&query=Las Vegas, NV, USA'>Las Vegas, NV, USA</a>",
+      "headline": "<a href='https://reinvent.awsevents.com/'>AWS re:Invent 2025</a>"
+    },
+    "sort": [
+      1764590400000
+    ]
   }
 ]
