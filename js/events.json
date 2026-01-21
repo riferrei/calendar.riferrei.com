@@ -2213,13 +2213,33 @@
       "groupName": "Q4",
       "@timestamp": "2025-12-01T12:00:00Z",
       "eventName": "AWS re:Invent 2025",
-      "talk": "Mastering Patterns to Build an AI Memory Layer",
+      "talk": "Speed Up your Apps with RDI and Redis Cloud",
       "location": "Las Vegas, NV, USA",
-      "text": "🎙 Mastering Patterns to Build an AI Memory Layer<br>✈️ <a href='https://www.google.com/maps/search/?api=1&query=Las Vegas, NV, USA'>Las Vegas, NV, USA</a>",
+      "text": "🎙 Speed Up your Apps with RDI and Redis Cloud<br>✈️ <a href='https://www.google.com/maps/search/?api=1&query=Las Vegas, NV, USA'>Las Vegas, NV, USA</a>",
       "headline": "<a href='https://reinvent.awsevents.com/'>AWS re:Invent 2025</a>"
     },
     "sort": [
       1764590400000
+    ]
+  },
+  {
+    "_index": "events",
+    "_id": "TYqI4psBMGqjkyv06hf6",
+    "_score": null,
+    "_source": {
+      "website": "https://www.developerweek.com",
+      "thumbnail": "https://calendar.riferrei.com/images/DW26.jpg",
+      "mediaUrl": "https://calendar.riferrei.com/images/DW26.jpg",
+      "groupName": "Q1",
+      "@timestamp": "2026-02-20T11:30:00Z",
+      "eventName": "Developer Week 2026",
+      "talk": "Beyond Prompting: Context Engineering with LangChain4J",
+      "location": "San Jose, CA, USA",
+      "text": "🎙 Beyond Prompting: Context Engineering with LangChain4J<br>✈️ <a href='https://www.google.com/maps/search/?api=1&query=San Jose, CA, USA'>San Jose, CA, USA</a>",
+      "headline": "<a href='https://www.developerweek.com'>Developer Week 2026</a>"
+    },
+    "sort": [
+      1771587000000
     ]
   }
 ]
