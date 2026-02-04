@@ -2241,5 +2241,25 @@
     "sort": [
       1771587000000
     ]
+  },
+  {
+    "_index": "events",
+    "_id": "IzJoKZwBLnayFucouzlo",
+    "_score": null,
+    "_source": {
+      "website": "https://www.oaiconference.com/",
+      "thumbnail": "https://calendar.riferrei.com/images/oai.png",
+      "mediaUrl": "https://calendar.riferrei.com/images/oai.png",
+      "groupName": "Q1",
+      "@timestamp": "2026-03-30T11:30:00Z",
+      "eventName": "Optimized AI Conference 2026",
+      "talk": "Beyond Prompting: Context Engineering with LangChain4J",
+      "location": "Atlanta, GA, USA",
+      "text": "🎙 Beyond Prompting: Context Engineering with LangChain4J<br>✈️ <a href='https://www.google.com/maps/search/?api=1&query=Atlanta, GA, USA'>Atlanta, GA, USA</a>",
+      "headline": "<a href='https://www.oaiconference.com/'>Optimized AI Conference 2026</a>"
+    },
+    "sort": [
+      1774870200000
+    ]
   }
 ]
