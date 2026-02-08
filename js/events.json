@@ -2261,5 +2261,25 @@
     "sort": [
       1774870200000
     ]
+  },
+  {
+    "_index": "events",
+    "_id": "-mxdP5wBiqfuf3YvocLk",
+    "_score": null,
+    "_source": {
+      "website": "https://www.devoxx.co.uk/",
+      "thumbnail": "https://calendar.riferrei.com/images/Devoxx_UK.png",
+      "mediaUrl": "https://calendar.riferrei.com/images/Devoxx_UK.png",
+      "groupName": "Q2",
+      "@timestamp": "2026-05-07T11:30:00Z",
+      "eventName": "Devoxx UK 2026",
+      "talk": "In the Land of the AI Agents, the One-Layer Memory Is King",
+      "location": "London, UK",
+      "text": "🎙 In the Land of the AI Agents, the One-Layer Memory Is King<br>✈️ <a href='https://www.google.com/maps/search/?api=1&query=London, UK'>London, UK</a>",
+      "headline": "<a href='https://www.devoxx.co.uk/'>Devoxx UK 2026</a>"
+    },
+    "sort": [
+      1778153400000
+    ]
   }
 ]
