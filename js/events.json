@@ -2281,5 +2281,25 @@
     "sort": [
       1778153400000
     ]
+  },
+  {
+    "_index": "events",
+    "_id": "F9lec5wBfkJvKxNz-7yU",
+    "_score": null,
+    "_source": {
+      "website": "https://boston.qcon.ai/",
+      "thumbnail": "https://calendar.riferrei.com/images/qconbyinfoq.png",
+      "mediaUrl": "https://calendar.riferrei.com/images/qconbyinfoq.png",
+      "groupName": "Q2",
+      "@timestamp": "2026-06-01T11:30:00Z",
+      "eventName": "QCon AI 2026",
+      "talk": "Beyond Prompting: Context Engineering for Production-Grade AI",
+      "location": "Boston, MA, USA",
+      "text": "🎙 Beyond Prompting: Context Engineering for Production-Grade AI<br>✈️ <a href='https://www.google.com/maps/search/?api=1&query=Boston, MA, USA'>Boston, MA, USA</a>",
+      "headline": "<a href='https://boston.qcon.ai/'>QCon AI 2026</a>"
+    },
+    "sort": [
+      1780313400000
+    ]
   }
 ]
