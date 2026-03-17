@@ -2284,6 +2284,26 @@
   },
   {
     "_index": "events",
+    "_id": "YNg4_pwBUNHGfaFsaCJ6",
+    "_score": null,
+    "_source": {
+      "website": "https://jdconf.com/",
+      "thumbnail": "https://calendar.riferrei.com/images/JDConf2026.png",
+      "mediaUrl": "https://calendar.riferrei.com/images/JDConf2026.png",
+      "groupName": "Q2",
+      "@timestamp": "2026-04-08T12:00:00Z",
+      "eventName": "Microsoft JDConf 2026",
+      "talk": "Beyond Prompting: Context Engineering with LangChain4J",
+      "location": "Remote",
+      "text": "🎙 Beyond Prompting: Context Engineering with LangChain4J<br>✈️ <a href='https://www.google.com/maps/search/?api=1&query=Remote'>Remote</a>",
+      "headline": "<a href='https://jdconf.com/'>Microsoft JDConf 2026</a>"
+    },
+    "sort": [
+      1775649600000
+    ]
+  },
+  {
+    "_index": "events",
     "_id": "Xj1eupwB3KHoqvzxpq-K",
     "_score": null,
     "_source": {
